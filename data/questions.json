@@ -1,0 +1,784 @@
+[
+  {
+    "id": "SCI-HBL-Q01-01",
+    "questId": "SCI-HBL-Q01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Organs", "learningObjective": "Identify human organs and their basic functions.",
+    "questionType": "mcq", "prompt": "Organ tubuh mana yang membantu kita melihat?",
+    "options": [
+      { "id": "a", "text": "Telinga", "icon": "👂" },
+      { "id": "b", "text": "Mata", "icon": "👁️" },
+      { "id": "c", "text": "Hidung", "icon": "👃" },
+      { "id": "d", "text": "Mulut", "icon": "👄" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Mata adalah organ penglihatan. Mata membantu kita melihat dunia di sekitar kita.",
+    "feedbackId": "FB-BODY-001", "hintId": "HINT-BODY-001", "difficulty": 1,
+    "misconceptionTarget": "BODY-M03", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["human-organs", "organ-functions"]
+  },
+  {
+    "id": "SCI-HBL-Q01-02",
+    "questId": "SCI-HBL-Q01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Organ Functions", "learningObjective": "Match organs with their correct functions.",
+    "questionType": "matching", "prompt": "Jodohkan organ tubuh dengan fungsinya!",
+    "pairs": [
+      { "left": "Mata", "right": "Melihat", "leftIcon": "👁️" },
+      { "left": "Telinga", "right": "Mendengar", "leftIcon": "👂" },
+      { "left": "Hidung", "right": "Mencium", "leftIcon": "👃" },
+      { "left": "Lidah", "right": "Merasakan", "leftIcon": "👅" }
+    ],
+    "correctAnswer": [
+      { "left": "Mata", "right": "Melihat" },
+      { "left": "Telinga", "right": "Mendengar" },
+      { "left": "Hidung", "right": "Mencium" },
+      { "left": "Lidah", "right": "Merasakan" }
+    ],
+    "explanation": "Setiap organ indera memiliki fungsi khusus.",
+    "feedbackId": "FB-BODY-002", "hintId": "HINT-BODY-002", "difficulty": 2,
+    "misconceptionTarget": "BODY-M03", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["human-organs", "organ-functions"]
+  },
+  {
+    "id": "SCI-HBL-Q01-03",
+    "questId": "SCI-HBL-Q01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Organs", "learningObjective": "Apply knowledge of organs to a real scenario.",
+    "questionType": "scenario",
+    "prompt": "Raka sedang bermain di halaman. Tiba-tiba dia mencium aroma makanan yang lezat dari dapur. Organ apa yang Raka gunakan untuk mencium aroma tersebut?",
+    "options": [
+      { "id": "a", "text": "Mata", "icon": "👁️" },
+      { "id": "b", "text": "Telinga", "icon": "👂" },
+      { "id": "c", "text": "Hidung", "icon": "👃" },
+      { "id": "d", "text": "Kulit", "icon": "🖐️" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Hidung adalah organ penciuman. Raka mencium aroma makanan menggunakan hidungnya.",
+    "feedbackId": "FB-BODY-001", "hintId": "HINT-BODY-001", "difficulty": 2,
+    "misconceptionTarget": "BODY-M03", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["human-organs", "organ-functions"]
+  },
+  {
+    "id": "SCI-HBL-Q01-04",
+    "questId": "SCI-HBL-Q01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Organs", "learningObjective": "Classify items as body parts or non-body parts.",
+    "questionType": "classification",
+    "prompt": "Kelompokkan item berikut menjadi 'Organ Tubuh' atau 'Bukan Organ Tubuh'.",
+    "categories": ["Organ Tubuh", "Bukan Organ Tubuh"],
+    "items": [
+      { "id": "1", "text": "Jantung", "icon": "❤️", "category": "Organ Tubuh" },
+      { "id": "2", "text": "Meja", "icon": "🪑", "category": "Bukan Organ Tubuh" },
+      { "id": "3", "text": "Paru-paru", "icon": "🫁", "category": "Organ Tubuh" },
+      { "id": "4", "text": "Buku", "icon": "📖", "category": "Bukan Organ Tubuh" },
+      { "id": "5", "text": "Lambung", "icon": "🫃", "category": "Organ Tubuh" }
+    ],
+    "correctAnswer": { "Organ Tubuh": ["1", "3", "5"], "Bukan Organ Tubuh": ["2", "4"] },
+    "explanation": "Jantung, paru-paru, dan lambung adalah organ tubuh.",
+    "feedbackId": "FB-BODY-001", "hintId": "HINT-BODY-002", "difficulty": 2,
+    "misconceptionTarget": null, "sourceIds": ["SRC-IPAS-FC"], "conceptIds": ["human-organs"]
+  },
+  {
+    "id": "SCI-HBL-Q01-05",
+    "questId": "SCI-HBL-Q01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Organ Functions", "learningObjective": "Evaluate a statement about organ functions.",
+    "questionType": "true-false",
+    "prompt": "Benar atau Salah: 'Mata membantu mendengar suara.'",
+    "correctAnswer": false,
+    "explanation": "Salah. Mata adalah organ penglihatan, bukan pendengaran.",
+    "feedbackId": "FB-BODY-002", "hintId": "HINT-BODY-002", "difficulty": 1,
+    "misconceptionTarget": "BODY-M03", "sourceIds": ["SRC-IPAS-FC"], "conceptIds": ["organ-functions"]
+  },
+  {
+    "id": "SCI-HBL-Q01-06",
+    "questId": "SCI-HBL-Q01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Organs", "learningObjective": "Explain why organs work together.",
+    "questionType": "scenario",
+    "prompt": "Mengapa organ-organ pencernaan perlu bekerja sama?",
+    "options": [
+      { "id": "a", "text": "Agar makanan dapat diproses dan nutrisinya diserap tubuh", "icon": "✅" },
+      { "id": "b", "text": "Agar organ-organ bisa beristirahat", "icon": "😴" },
+      { "id": "c", "text": "Agar makanan bisa langsung masuk ke darah", "icon": "🩸" },
+      { "id": "d", "text": "Agar tubuh menjadi lebih besar", "icon": "📏" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Organ pencernaan bekerja sama untuk memproses makanan dan menyerap nutrisi.",
+    "feedbackId": "FB-BODY-003", "hintId": "HINT-BODY-002", "difficulty": 3,
+    "misconceptionTarget": "BODY-M01", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["human-organs", "organ-functions", "digestive-system"]
+  },
+  {
+    "id": "SCI-HBL-Q01-07",
+    "questId": "SCI-HBL-Q01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Organ Functions", "learningObjective": "Match sense organs with their functions.",
+    "questionType": "matching", "prompt": "Jodohkan organ indera dengan fungsinya!",
+    "pairs": [
+      { "left": "Mata", "right": "Melihat", "leftIcon": "👁️" },
+      { "left": "Telinga", "right": "Mendengar", "leftIcon": "👂" },
+      { "left": "Hidung", "right": "Mencium", "leftIcon": "👃" },
+      { "left": "Lidah", "right": "Merasakan", "leftIcon": "👅" }
+    ],
+    "correctAnswer": [
+      { "left": "Mata", "right": "Melihat" },
+      { "left": "Telinga", "right": "Mendengar" },
+      { "left": "Hidung", "right": "Mencium" },
+      { "left": "Lidah", "right": "Merasakan" }
+    ],
+    "explanation": "Mata untuk melihat, telinga untuk mendengar, hidung untuk mencium, dan lidah untuk merasakan.",
+    "feedbackId": "FB-BODY-001", "hintId": "HINT-BODY-002", "difficulty": 2,
+    "misconceptionTarget": "BODY-M03", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["human-organs", "organ-functions"]
+  },
+  {
+    "id": "SCI-HBL-Q01-08",
+    "questId": "SCI-HBL-Q01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Organs", "learningObjective": "Identify the function of the skin.",
+    "questionType": "mcq", "prompt": "Apa fungsi utama kulit bagi tubuh manusia?",
+    "options": [
+      { "id": "a", "text": "Melihat", "icon": "👁️" },
+      { "id": "b", "text": "Merasakan sentuhan dan melindungi tubuh", "icon": "🖐️" },
+      { "id": "c", "text": "Mendengar", "icon": "👂" },
+      { "id": "d", "text": "Mencium", "icon": "👃" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Kulit adalah organ terbesar tubuh. Kulit membantu kita merasakan sentuhan dan melindungi tubuh.",
+    "feedbackId": "FB-BODY-001", "hintId": "HINT-BODY-002", "difficulty": 2,
+    "misconceptionTarget": "BODY-M03", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["human-organs", "organ-functions"]
+  },
+  {
+    "id": "SCI-HBL-Q01-09",
+    "questId": "SCI-HBL-Q01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Organs", "learningObjective": "Label the positions of facial organs.",
+    "questionType": "puzzle", "prompt": "Letakkan organ wajah pada posisi yang benar!",
+    "items": [
+      { "id": "eye", "text": "Mata", "icon": "👁️", "correctPosition": 1 },
+      { "id": "nose", "text": "Hidung", "icon": "👃", "correctPosition": 2 },
+      { "id": "ear", "text": "Telinga", "icon": "👂", "correctPosition": 3 },
+      { "id": "mouth", "text": "Mulut", "icon": "👄", "correctPosition": 4 }
+    ],
+    "correctAnswer": { "eye": 1, "nose": 2, "ear": 3, "mouth": 4 },
+    "explanation": "Mata di atas, hidung di tengah, telinga di sisi, dan mulut di bawah.",
+    "feedbackId": "FB-BODY-001", "hintId": "HINT-BODY-001", "difficulty": 2,
+    "misconceptionTarget": null, "sourceIds": ["SRC-IPAS-FC"], "conceptIds": ["human-organs"]
+  },
+  {
+    "id": "SCI-HBL-Q01-10",
+    "questId": "SCI-HBL-Q01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Organs", "learningObjective": "Apply multiple senses to a real-world scenario.",
+    "questionType": "scenario",
+    "prompt": "Naya sedang duduk di taman. Dia melihat bunga berwarna merah, mendengar suara burung berkicau, dan mencium aroma bunga. Organ apa saja yang Naya gunakan?",
+    "options": [
+      { "id": "a", "text": "Mata, telinga, dan hidung", "icon": "✅" },
+      { "id": "b", "text": "Mata dan mulut", "icon": "❌" },
+      { "id": "c", "text": "Telinga dan kulit", "icon": "❌" },
+      { "id": "d", "text": "Hidung dan lidah", "icon": "❌" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Naya menggunakan mata untuk melihat, telinga untuk mendengar, dan hidung untuk mencium.",
+    "feedbackId": "FB-BODY-001", "hintId": "HINT-BODY-001", "difficulty": 3,
+    "misconceptionTarget": "BODY-M01", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["human-organs", "organ-functions"]
+  },
+  {
+    "id": "SCI-HBL-Q02-01",
+    "questId": "SCI-HBL-Q02", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestive Sequence", "learningObjective": "Identify the first step of the digestive journey.",
+    "questionType": "mcq", "prompt": "Di mana perjalanan makanan dimulai?",
+    "options": [
+      { "id": "a", "text": "Lambung", "icon": "🫃" },
+      { "id": "b", "text": "Mulut", "icon": "👄" },
+      { "id": "c", "text": "Kerongkongan", "icon": "🔽" },
+      { "id": "d", "text": "Usus halus", "icon": "🌀" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Perjalanan makanan dimulai dari mulut.",
+    "feedbackId": "FB-DIG-001", "hintId": "HINT-DIG-001", "difficulty": 1,
+    "misconceptionTarget": null, "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestive-system", "digestive-sequence"]
+  },
+  {
+    "id": "SCI-HBL-Q02-02",
+    "questId": "SCI-HBL-Q02", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestive Sequence", "learningObjective": "Order the digestive organs correctly.",
+    "questionType": "ordering", "prompt": "Urutkan perjalanan makanan melalui sistem pencernaan!",
+    "items": [
+      { "id": "mouth", "text": "Mulut", "icon": "👄", "correctOrder": 1 },
+      { "id": "esophagus", "text": "Kerongkongan", "icon": "🔽", "correctOrder": 2 },
+      { "id": "stomach", "text": "Lambung", "icon": "🫃", "correctOrder": 3 },
+      { "id": "small-intestine", "text": "Usus Halus", "icon": "🌀", "correctOrder": 4 },
+      { "id": "large-intestine", "text": "Usus Besar", "icon": "🔄", "correctOrder": 5 },
+      { "id": "anus", "text": "Anus", "icon": "🚪", "correctOrder": 6 }
+    ],
+    "correctAnswer": ["mouth", "esophagus", "stomach", "small-intestine", "large-intestine", "anus"],
+    "explanation": "Urutan: Mulut → Kerongkongan → Lambung → Usus Halus → Usus Besar → Anus.",
+    "feedbackId": "FB-DIG-001", "hintId": "HINT-DIG-001", "difficulty": 3,
+    "misconceptionTarget": "DIG-M01", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestive-system", "digestive-sequence"]
+  },
+  {
+    "id": "SCI-HBL-Q02-03",
+    "questId": "SCI-HBL-Q02", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestive Organs", "learningObjective": "Identify the function of the esophagus.",
+    "questionType": "mcq", "prompt": "Apa fungsi kerongkongan (esofagus) dalam sistem pencernaan?",
+    "options": [
+      { "id": "a", "text": "Menyerap nutrisi", "icon": "❌" },
+      { "id": "b", "text": "Menghubungkan mulut ke lambung", "icon": "✅" },
+      { "id": "c", "text": "Mencerna makanan", "icon": "❌" },
+      { "id": "d", "text": "Menyimpan makanan", "icon": "❌" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Kerongkongan adalah tabung yang menghubungkan mulut ke lambung.",
+    "feedbackId": "FB-DIG-003", "hintId": "HINT-DIG-001", "difficulty": 2,
+    "misconceptionTarget": "DIG-M01", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestive-system", "digestive-organs"]
+  },
+  {
+    "id": "SCI-HBL-Q02-04",
+    "questId": "SCI-HBL-Q02", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestion Functions", "learningObjective": "Identify the main nutrient absorption site.",
+    "questionType": "mcq", "prompt": "Di organ mana sebagian besar nutrisi dari makanan diserap oleh tubuh?",
+    "options": [
+      { "id": "a", "text": "Lambung", "icon": "🫃" },
+      { "id": "b", "text": "Usus halus", "icon": "🌀" },
+      { "id": "c", "text": "Usus besar", "icon": "🔄" },
+      { "id": "d", "text": "Kerongkongan", "icon": "🔽" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Usus halus adalah tempat utama penyerapan nutrisi.",
+    "feedbackId": "FB-DIG-004", "hintId": "HINT-DIG-002", "difficulty": 3,
+    "misconceptionTarget": "DIG-M02", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestion-functions", "digestive-organs"]
+  },
+  {
+    "id": "SCI-HBL-Q02-05",
+    "questId": "SCI-HBL-Q02", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestion Functions", "learningObjective": "Understand the role of the large intestine.",
+    "questionType": "true-false",
+    "prompt": "Benar atau Salah: 'Usus besar adalah tempat utama penyerapan nutrisi.'",
+    "correctAnswer": false,
+    "explanation": "Salah. Usus besar terutama menyerap air, bukan nutrisi.",
+    "feedbackId": "FB-DIG-004", "hintId": "HINT-DIG-002", "difficulty": 3,
+    "misconceptionTarget": "DIG-M03", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestion-functions", "digestive-organs"]
+  },
+  {
+    "id": "SCI-HBL-Q02-06",
+    "questId": "SCI-HBL-Q02", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestive System", "learningObjective": "Understand that digestive organs work as a system.",
+    "questionType": "scenario", "prompt": "Mengapa organ-organ pencernaan disebut sebagai 'sistem'?",
+    "options": [
+      { "id": "a", "text": "Karena organ-organnya bekerja sendiri-sendiri", "icon": "❌" },
+      { "id": "b", "text": "Karena organ-organnya bekerja bersama dalam urutan tertentu", "icon": "✅" },
+      { "id": "c", "text": "Karena organ-organnya tidak berhubungan", "icon": "❌" },
+      { "id": "d", "text": "Karena organ-organnya bisa diganti", "icon": "❌" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Organ pencernaan disebut sistem karena bekerja bersama dalam urutan tertentu.",
+    "feedbackId": "FB-DIG-001", "hintId": "HINT-DIG-001", "difficulty": 3,
+    "misconceptionTarget": "DIG-M04", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestive-system"]
+  },
+  {
+    "id": "SCI-HBL-Q02-07",
+    "questId": "SCI-HBL-Q02", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestive Sequence", "learningObjective": "Identify the correct sequence after the mouth.",
+    "questionType": "mcq",
+    "prompt": "Setelah makanan dikunyah di mulut, ke organ mana makanan pergi selanjutnya?",
+    "options": [
+      { "id": "a", "text": "Lambung", "icon": "🫃" },
+      { "id": "b", "text": "Kerongkongan", "icon": "🔽" },
+      { "id": "c", "text": "Usus halus", "icon": "🌀" },
+      { "id": "d", "text": "Usus besar", "icon": "🔄" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Setelah dari mulut, makanan melewati kerongkongan menuju lambung.",
+    "feedbackId": "FB-DIG-003", "hintId": "HINT-DIG-001", "difficulty": 2,
+    "misconceptionTarget": "DIG-M01", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestive-system", "digestive-sequence"]
+  },
+  {
+    "id": "SCI-HBL-Q02-08",
+    "questId": "SCI-HBL-Q02", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestion Functions", "learningObjective": "Match digestive organs with their functions.",
+    "questionType": "matching", "prompt": "Jodohkan organ pencernaan dengan fungsinya!",
+    "pairs": [
+      { "left": "Mulut", "right": "Mengunyah makanan", "leftIcon": "👄" },
+      { "left": "Lambung", "right": "Mencerna makanan", "leftIcon": "🫃" },
+      { "left": "Usus Halus", "right": "Menyerap nutrisi", "leftIcon": "🌀" },
+      { "left": "Usus Besar", "right": "Menyerap air", "leftIcon": "🔄" }
+    ],
+    "correctAnswer": [
+      { "left": "Mulut", "right": "Mengunyah makanan" },
+      { "left": "Lambung", "right": "Mencerna makanan" },
+      { "left": "Usus Halus", "right": "Menyerap nutrisi" },
+      { "left": "Usus Besar", "right": "Menyerap air" }
+    ],
+    "explanation": "Setiap organ memiliki fungsi khusus dalam sistem pencernaan.",
+    "feedbackId": "FB-DIG-001", "hintId": "HINT-DIG-001", "difficulty": 3,
+    "misconceptionTarget": "DIG-M04", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestive-organs", "digestion-functions"]
+  },
+  {
+    "id": "SCI-HBL-Q02-09",
+    "questId": "SCI-HBL-Q02", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestive Sequence", "learningObjective": "Identify which organ comes before the stomach.",
+    "questionType": "mcq",
+    "prompt": "Organ apa yang berada tepat sebelum lambung dalam sistem pencernaan?",
+    "options": [
+      { "id": "a", "text": "Mulut", "icon": "👄" },
+      { "id": "b", "text": "Kerongkongan", "icon": "🔽" },
+      { "id": "c", "text": "Usus halus", "icon": "🌀" },
+      { "id": "d", "text": "Anus", "icon": "🚪" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Kerongkongan (esofagus) berada tepat sebelum lambung.",
+    "feedbackId": "FB-DIG-003", "hintId": "HINT-DIG-001", "difficulty": 2,
+    "misconceptionTarget": "DIG-M01", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestive-system", "digestive-sequence", "digestive-organs"]
+  },
+  {
+    "id": "SCI-HBL-Q02-10",
+    "questId": "SCI-HBL-Q02", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestive System", "learningObjective": "Apply knowledge of the digestive system to a scenario.",
+    "questionType": "scenario",
+    "prompt": "Bayangkan kamu makan sepotong apel. Setelah dikunyah di mulut, apel tersebut melewati kerongkongan dan masuk ke lambung. Apa yang terjadi pada apel di lambung?",
+    "options": [
+      { "id": "a", "text": "Nutrisi apel langsung diserap", "icon": "❌" },
+      { "id": "b", "text": "Apel dicerna dan dipecah menjadi bagian lebih kecil", "icon": "✅" },
+      { "id": "c", "text": "Apel dikeluarkan dari tubuh", "icon": "❌" },
+      { "id": "d", "text": "Apel berubah menjadi air", "icon": "❌" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Di lambung, makanan dicerna dan dipecah menjadi bagian yang lebih kecil.",
+    "feedbackId": "FB-DIG-002", "hintId": "HINT-DIG-002", "difficulty": 4,
+    "misconceptionTarget": "DIG-M02", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestion-functions", "digestive-organs"]
+  },
+  {
+    "id": "SCI-HBL-Q03-01",
+    "questId": "SCI-HBL-Q03", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Healthy Habits", "learningObjective": "Identify what makes a meal balanced.",
+    "questionType": "mcq", "prompt": "Manakah yang termasuk makanan bergizi seimbang?",
+    "options": [
+      { "id": "a", "text": "Nasi, ayam, sayur, dan buah", "icon": "✅" },
+      { "id": "b", "text": "Permen dan soda", "icon": "❌" },
+      { "id": "c", "text": "Keripik dan cokelat", "icon": "❌" },
+      { "id": "d", "text": "Es krim saja", "icon": "❌" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Makanan bergizi seimbang terdiri dari karbohidrat, protein, sayur, dan buah.",
+    "feedbackId": "FB-HEALTH-001", "hintId": "HINT-HEALTH-001", "difficulty": 2,
+    "misconceptionTarget": "HEALTH-M01", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["balanced-nutrition", "healthy-habits"]
+  },
+  {
+    "id": "SCI-HBL-Q03-02",
+    "questId": "SCI-HBL-Q03", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Healthy Habits", "learningObjective": "Evaluate a statement about healthy food taste.",
+    "questionType": "true-false",
+    "prompt": "Benar atau Salah: 'Makanan sehat selalu rasanya tidak enak.'",
+    "correctAnswer": false,
+    "explanation": "Salah. Makanan sehat bisa sangat lezat!",
+    "feedbackId": "FB-HEALTH-003", "hintId": "HINT-HEALTH-001", "difficulty": 2,
+    "misconceptionTarget": "HEALTH-M01", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["balanced-nutrition", "healthy-habits"]
+  },
+  {
+    "id": "SCI-HBL-Q03-03",
+    "questId": "SCI-HBL-Q03", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Physical Activity", "learningObjective": "Understand the importance of daily physical activity.",
+    "questionType": "mcq",
+    "prompt": "Berapa lama anak-anak sebaiknya melakukan aktivitas fisik setiap hari?",
+    "options": [
+      { "id": "a", "text": "5 menit", "icon": "❌" },
+      { "id": "b", "text": "15 menit", "icon": "❌" },
+      { "id": "c", "text": "60 menit atau lebih", "icon": "✅" },
+      { "id": "d", "text": "Tidak perlu aktivitas fisik", "icon": "❌" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Anak-anak sebaiknya melakukan aktivitas fisik minimal 60 menit setiap hari.",
+    "feedbackId": "FB-HEALTH-001", "hintId": "HINT-HEALTH-001", "difficulty": 2,
+    "misconceptionTarget": "HEALTH-M03", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["physical-activity", "healthy-habits"]
+  },
+  {
+    "id": "SCI-HBL-Q03-04",
+    "questId": "SCI-HBL-Q03", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Healthy Habits", "learningObjective": "Classify habits as healthy or unhealthy.",
+    "questionType": "classification",
+    "prompt": "Kelompokkan kebiasaan berikut menjadi 'Sehat' atau 'Tidak Sehat'.",
+    "categories": ["Sehat", "Tidak Sehat"],
+    "items": [
+      { "id": "1", "text": "Olahraga setiap hari", "icon": "🏃", "category": "Sehat" },
+      { "id": "2", "text": "Makan sayur dan buah", "icon": "🥗", "category": "Sehat" },
+      { "id": "3", "text": "Minum soda setiap hari", "icon": "🥤", "category": "Tidak Sehat" },
+      { "id": "4", "text": "Tidur cukup", "icon": "😴", "category": "Sehat" },
+      { "id": "5", "text": "Makan permen terus-menerus", "icon": "🍬", "category": "Tidak Sehat" }
+    ],
+    "correctAnswer": { "Sehat": ["1", "2", "4"], "Tidak Sehat": ["3", "5"] },
+    "explanation": "Olahraga, makan sayur dan buah, serta tidur cukup adalah kebiasaan sehat.",
+    "feedbackId": "FB-HEALTH-001", "hintId": "HINT-HEALTH-001", "difficulty": 2,
+    "misconceptionTarget": "HEALTH-M02", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["healthy-habits", "balanced-nutrition", "physical-activity"]
+  },
+  {
+    "id": "SCI-HBL-Q03-05",
+    "questId": "SCI-HBL-Q03", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Balanced Nutrition", "learningObjective": "Evaluate a statement about eating more.",
+    "questionType": "true-false",
+    "prompt": "Benar atau Salah: 'Semakin banyak makanan yang dimakan, semakin sehat tubuh kita.'",
+    "correctAnswer": false,
+    "explanation": "Salah. Yang penting adalah gizi seimbang, bukan jumlah makanan yang banyak.",
+    "feedbackId": "FB-HEALTH-002", "hintId": "HINT-HEALTH-001", "difficulty": 3,
+    "misconceptionTarget": "HEALTH-M02", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["balanced-nutrition", "healthy-habits"]
+  },
+  {
+    "id": "SCI-HBL-Q03-06",
+    "questId": "SCI-HBL-Q03", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Physical Activity", "learningObjective": "Understand that physical activity is not only formal exercise.",
+    "questionType": "mcq", "prompt": "Manakah yang BUKAN termasuk aktivitas fisik?",
+    "options": [
+      { "id": "a", "text": "Bermain sepak bola", "icon": "⚽" },
+      { "id": "b", "text": "Bersepeda", "icon": "🚲" },
+      { "id": "c", "text": "Menonton TV sambil duduk", "icon": "📺" },
+      { "id": "d", "text": "Menari", "icon": "💃" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Menonton TV sambil duduk bukan aktivitas fisik.",
+    "feedbackId": "FB-HEALTH-001", "hintId": "HINT-HEALTH-001", "difficulty": 2,
+    "misconceptionTarget": "HEALTH-M03", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["physical-activity", "healthy-habits"]
+  },
+  {
+    "id": "SCI-HBL-Q03-07",
+    "questId": "SCI-HBL-Q03", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestive Health", "learningObjective": "Identify habits that support digestive health.",
+    "questionType": "mcq",
+    "prompt": "Kebiasaan mana yang membantu menjaga kesehatan pencernaan?",
+    "options": [
+      { "id": "a", "text": "Makan makanan berserat seperti sayur dan buah", "icon": "✅" },
+      { "id": "b", "text": "Melewatkan sarapan", "icon": "❌" },
+      { "id": "c", "text": "Makan terlalu cepat", "icon": "❌" },
+      { "id": "d", "text": "Tidak minum air", "icon": "❌" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Makanan berserat membantu menjaga kesehatan pencernaan.",
+    "feedbackId": "FB-HEALTH-001", "hintId": "HINT-HEALTH-001", "difficulty": 2,
+    "misconceptionTarget": null, "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["digestive-health", "healthy-habits"]
+  },
+  {
+    "id": "SCI-HBL-Q03-08",
+    "questId": "SCI-HBL-Q03", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Healthy Habits", "learningObjective": "Build a healthy daily routine.",
+    "questionType": "ordering",
+    "prompt": "Urutkan rutinitas harian yang sehat dari pagi hingga malam!",
+    "items": [
+      { "id": "breakfast", "text": "Sarapan bergizi", "icon": "🍳", "correctOrder": 1 },
+      { "id": "school", "text": "Belajar di sekolah", "icon": "🏫", "correctOrder": 2 },
+      { "id": "play", "text": "Bermain dan berolahraga", "icon": "⚽", "correctOrder": 3 },
+      { "id": "dinner", "text": "Makan malam seimbang", "icon": "🍽️", "correctOrder": 4 },
+      { "id": "sleep", "text": "Tidur cukup", "icon": "😴", "correctOrder": 5 }
+    ],
+    "correctAnswer": ["breakfast", "school", "play", "dinner", "sleep"],
+    "explanation": "Rutinitas sehat meliputi sarapan bergizi, belajar, bermain, makan malam, dan tidur.",
+    "feedbackId": "FB-HEALTH-001", "hintId": "HINT-HEALTH-001", "difficulty": 3,
+    "misconceptionTarget": null, "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["healthy-habits", "balanced-nutrition", "physical-activity"]
+  },
+  {
+    "id": "SCI-HBL-Q03-09",
+    "questId": "SCI-HBL-Q03", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Healthy Habits", "learningObjective": "Apply knowledge to a scenario about food choices.",
+    "questionType": "scenario",
+    "prompt": "Di kantin sekolah, ada beberapa pilihan makanan. Manakah pilihan yang paling sehat untuk makan siang?",
+    "options": [
+      { "id": "a", "text": "Nasi, sayur, dan telur", "icon": "✅" },
+      { "id": "b", "text": "Keripik dan permen", "icon": "❌" },
+      { "id": "c", "text": "Soda dan donat", "icon": "❌" },
+      { "id": "d", "text": "Es krim dan cokelat", "icon": "❌" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Nasi, sayur, dan telur adalah pilihan makan siang yang seimbang.",
+    "feedbackId": "FB-HEALTH-001", "hintId": "HINT-HEALTH-001", "difficulty": 2,
+    "misconceptionTarget": "HEALTH-M01", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["balanced-nutrition", "healthy-habits"]
+  },
+  {
+    "id": "SCI-HBL-Q03-10",
+    "questId": "SCI-HBL-Q03", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Healthy Habits", "learningObjective": "Integrate knowledge about healthy habits.",
+    "questionType": "scenario",
+    "prompt": "Sinta ingin menjadi lebih sehat. Manakah rencana yang paling baik untuk Sinta?",
+    "options": [
+      { "id": "a", "text": "Makan berbagai makanan bergizi, berolahraga setiap hari, dan tidur cukup", "icon": "✅" },
+      { "id": "b", "text": "Hanya makan makanan enak setiap hari", "icon": "❌" },
+      { "id": "c", "text": "Tidak makan sama sekali", "icon": "❌" },
+      { "id": "d", "text": "Hanya berolahraga tanpa makan", "icon": "❌" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Rencana terbaik adalah makan bergizi seimbang, berolahraga teratur, dan tidur cukup.",
+    "feedbackId": "FB-HEALTH-001", "hintId": "HINT-HEALTH-001", "difficulty": 3,
+    "misconceptionTarget": null, "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["healthy-habits", "balanced-nutrition", "physical-activity"]
+  },
+  {
+    "id": "SCI-HBL-CH01-01",
+    "questId": "SCI-HBL-CH01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Organs", "learningObjective": "Identify a missing organ.",
+    "questionType": "mcq",
+    "prompt": "🔍 ESCAPE ROOM — Missing Organ: Ada diagram tubuh manusia, tetapi satu organ hilang. Organ apa yang hilang jika fungsi 'melihat' tidak bisa dilakukan?",
+    "options": [
+      { "id": "a", "text": "Telinga", "icon": "👂" },
+      { "id": "b", "text": "Mata", "icon": "👁️" },
+      { "id": "c", "text": "Hidung", "icon": "👃" },
+      { "id": "d", "text": "Mulut", "icon": "👄" }
+    ],
+    "correctAnswer": "b", "explanation": "Mata adalah organ penglihatan.",
+    "feedbackId": "FB-BODY-001", "hintId": "HINT-BODY-001", "difficulty": 3,
+    "misconceptionTarget": "BODY-M03", "sourceIds": ["SRC-IPAS-FC"], "conceptIds": ["human-organs"]
+  },
+  {
+    "id": "SCI-HBL-CH01-02",
+    "questId": "SCI-HBL-CH01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestive Sequence", "learningObjective": "Repair a broken food route.",
+    "questionType": "ordering",
+    "prompt": "🔧 ESCAPE ROOM — Broken Food Route: Perjalanan makanan terputus! Susun kembali urutan yang benar.",
+    "items": [
+      { "id": "stomach", "text": "Lambung", "icon": "🫃", "correctOrder": 3 },
+      { "id": "mouth", "text": "Mulut", "icon": "👄", "correctOrder": 1 },
+      { "id": "esophagus", "text": "Kerongkongan", "icon": "🔽", "correctOrder": 2 },
+      { "id": "small-intestine", "text": "Usus Halus", "icon": "🌀", "correctOrder": 4 },
+      { "id": "large-intestine", "text": "Usus Besar", "icon": "🔄", "correctOrder": 5 }
+    ],
+    "correctAnswer": ["mouth", "esophagus", "stomach", "small-intestine", "large-intestine"],
+    "explanation": "Urutan yang benar dari mulut ke usus besar.",
+    "feedbackId": "FB-DIG-001", "hintId": "HINT-DIG-001", "difficulty": 4,
+    "misconceptionTarget": "DIG-M01", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestive-system", "digestive-sequence"]
+  },
+  {
+    "id": "SCI-HBL-CH01-03",
+    "questId": "SCI-HBL-CH01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Organ Functions", "learningObjective": "Unlock a function lock by matching organs to functions.",
+    "questionType": "matching",
+    "prompt": "🔐 ESCAPE ROOM — Function Lock: Jodohkan organ dengan fungsi untuk membuka kunci!",
+    "pairs": [
+      { "left": "Jantung", "right": "Memompa darah", "leftIcon": "❤️" },
+      { "left": "Paru-paru", "right": "Bernapas", "leftIcon": "🫁" },
+      { "left": "Lambung", "right": "Mencerna makanan", "leftIcon": "🫃" },
+      { "left": "Usus Halus", "right": "Menyerap nutrisi", "leftIcon": "🌀" }
+    ],
+    "correctAnswer": [
+      { "left": "Jantung", "right": "Memompa darah" },
+      { "left": "Paru-paru", "right": "Bernapas" },
+      { "left": "Lambung", "right": "Mencerna makanan" },
+      { "left": "Usus Halus", "right": "Menyerap nutrisi" }
+    ],
+    "explanation": "Setiap organ memiliki fungsi khusus.",
+    "feedbackId": "FB-BODY-001", "hintId": "HINT-BODY-002", "difficulty": 4,
+    "misconceptionTarget": "BODY-M03", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["organ-functions", "human-organs"]
+  },
+  {
+    "id": "SCI-HBL-CH01-04",
+    "questId": "SCI-HBL-CH01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Healthy Habits", "learningObjective": "Identify healthy choices in a lab scenario.",
+    "questionType": "mcq",
+    "prompt": "🧪 ESCAPE ROOM — Health Lab: Kamu berada di lab kesehatan. Pilih kebiasaan yang paling sehat untuk keluar dari lab!",
+    "options": [
+      { "id": "a", "text": "Makan sayur, buah, dan berolahraga", "icon": "✅" },
+      { "id": "b", "text": "Hanya makan permen", "icon": "❌" },
+      { "id": "c", "text": "Tidak pernah bergerak", "icon": "❌" },
+      { "id": "d", "text": "Minum soda setiap saat", "icon": "❌" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Makan sayur, buah, dan berolahraga adalah kebiasaan sehat.",
+    "feedbackId": "FB-HEALTH-001", "hintId": "HINT-HEALTH-001", "difficulty": 3,
+    "misconceptionTarget": "HEALTH-M01", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["healthy-habits", "balanced-nutrition", "physical-activity"]
+  },
+  {
+    "id": "SCI-HBL-CH01-05",
+    "questId": "SCI-HBL-CH01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestion Functions", "learningObjective": "Detect a wrong explanation about digestion.",
+    "questionType": "true-false",
+    "prompt": "⚠️ ESCAPE ROOM — Wrong Explanation: 'Lambung adalah tempat utama penyerapan nutrisi.' Benar atau Salah?",
+    "correctAnswer": false,
+    "explanation": "Salah. Tempat utama penyerapan nutrisi adalah usus halus.",
+    "feedbackId": "FB-DIG-004", "hintId": "HINT-DIG-002", "difficulty": 4,
+    "misconceptionTarget": "DIG-M02", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestion-functions"]
+  },
+  {
+    "id": "SCI-HBL-CH01-06",
+    "questId": "SCI-HBL-CH01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Body", "learningObjective": "Solve an integrated puzzle to escape.",
+    "questionType": "ordering",
+    "prompt": "🔓 ESCAPE ROOM — Escape Code: Susun organ-organ berikut sesuai urutan perjalanan makanan untuk mendapatkan kode keluar!",
+    "items": [
+      { "id": "mouth", "text": "Mulut", "icon": "👄", "correctOrder": 1 },
+      { "id": "esophagus", "text": "Kerongkongan", "icon": "🔽", "correctOrder": 2 },
+      { "id": "stomach", "text": "Lambung", "icon": "🫃", "correctOrder": 3 },
+      { "id": "small-intestine", "text": "Usus Halus", "icon": "🌀", "correctOrder": 4 },
+      { "id": "large-intestine", "text": "Usus Besar", "icon": "🔄", "correctOrder": 5 },
+      { "id": "anus", "text": "Anus", "icon": "🚪", "correctOrder": 6 }
+    ],
+    "correctAnswer": ["mouth", "esophagus", "stomach", "small-intestine", "large-intestine", "anus"],
+    "explanation": "Kode keluar adalah urutan perjalanan makanan yang benar.",
+    "feedbackId": "FB-DIG-001", "hintId": "HINT-DIG-001", "difficulty": 4,
+    "misconceptionTarget": "DIG-M01", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestive-system", "digestive-sequence"]
+  },
+  {
+    "id": "SCI-HBL-B01-01",
+    "questId": "SCI-HBL-B01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Organs", "learningObjective": "Identify organs from function descriptions.",
+    "questionType": "mcq",
+    "prompt": "👾 GUARDIAN SCANNER: 'Aku adalah organ yang memompa darah ke seluruh tubuh.' Organ apa aku?",
+    "options": [
+      { "id": "a", "text": "Paru-paru", "icon": "🫁" },
+      { "id": "b", "text": "Jantung", "icon": "❤️" },
+      { "id": "c", "text": "Lambung", "icon": "🫃" },
+      { "id": "d", "text": "Otak", "icon": "🧠" }
+    ],
+    "correctAnswer": "b", "explanation": "Jantung memompa darah ke seluruh tubuh.",
+    "feedbackId": "FB-BODY-001", "hintId": "HINT-BODY-002", "difficulty": 4,
+    "misconceptionTarget": "BODY-M03", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["human-organs", "organ-functions"]
+  },
+  {
+    "id": "SCI-HBL-B01-02",
+    "questId": "SCI-HBL-B01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Body", "learningObjective": "Connect organs to their systems.",
+    "questionType": "matching",
+    "prompt": "🔗 BODY CONNECTION: Hubungkan organ dengan sistem tubuhnya!",
+    "pairs": [
+      { "left": "Mulut", "right": "Sistem Pencernaan", "leftIcon": "👄" },
+      { "left": "Jantung", "right": "Sistem Peredaran Darah", "leftIcon": "❤️" },
+      { "left": "Paru-paru", "right": "Sistem Pernapasan", "leftIcon": "🫁" },
+      { "left": "Otak", "right": "Sistem Saraf", "leftIcon": "🧠" }
+    ],
+    "correctAnswer": [
+      { "left": "Mulut", "right": "Sistem Pencernaan" },
+      { "left": "Jantung", "right": "Sistem Peredaran Darah" },
+      { "left": "Paru-paru", "right": "Sistem Pernapasan" },
+      { "left": "Otak", "right": "Sistem Saraf" }
+    ],
+    "explanation": "Setiap organ adalah bagian dari sistem tubuh.",
+    "feedbackId": "FB-BODY-003", "hintId": "HINT-BODY-002", "difficulty": 5,
+    "misconceptionTarget": "BODY-M01", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["human-organs", "organ-functions"]
+  },
+  {
+    "id": "SCI-HBL-B01-03",
+    "questId": "SCI-HBL-B01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestive Sequence", "learningObjective": "Repair the digestive route.",
+    "questionType": "ordering",
+    "prompt": "🔧 REPAIR THE ROUTE: Perjalanan makanan rusak! Susun ulang dengan benar.",
+    "items": [
+      { "id": "mouth", "text": "Mulut", "icon": "👄", "correctOrder": 1 },
+      { "id": "esophagus", "text": "Kerongkongan", "icon": "🔽", "correctOrder": 2 },
+      { "id": "stomach", "text": "Lambung", "icon": "🫃", "correctOrder": 3 },
+      { "id": "small-intestine", "text": "Usus Halus", "icon": "🌀", "correctOrder": 4 },
+      { "id": "large-intestine", "text": "Usus Besar", "icon": "🔄", "correctOrder": 5 },
+      { "id": "anus", "text": "Anus", "icon": "🚪", "correctOrder": 6 }
+    ],
+    "correctAnswer": ["mouth", "esophagus", "stomach", "small-intestine", "large-intestine", "anus"],
+    "explanation": "Urutan perjalanan makanan yang benar.",
+    "feedbackId": "FB-DIG-001", "hintId": "HINT-DIG-001", "difficulty": 5,
+    "misconceptionTarget": "DIG-M01", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestive-system", "digestive-sequence"]
+  },
+  {
+    "id": "SCI-HBL-B01-04",
+    "questId": "SCI-HBL-B01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Healthy Habits", "learningObjective": "Make a healthy choice in a scenario.",
+    "questionType": "scenario",
+    "prompt": "🧠 GUARDIAN'S CHOICE: Kamu merasa lemas di pagi hari. Apa yang sebaiknya kamu lakukan?",
+    "options": [
+      { "id": "a", "text": "Sarapan dengan makanan bergizi", "icon": "✅" },
+      { "id": "b", "text": "Melewatkan sarapan", "icon": "❌" },
+      { "id": "c", "text": "Hanya minum soda", "icon": "❌" },
+      { "id": "d", "text": "Tidur sepanjang hari", "icon": "❌" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Sarapan bergizi memberikan energi untuk memulai hari.",
+    "feedbackId": "FB-HEALTH-001", "hintId": "HINT-HEALTH-001", "difficulty": 4,
+    "misconceptionTarget": "HEALTH-M02", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["healthy-habits", "balanced-nutrition"]
+  },
+  {
+    "id": "SCI-HBL-B01-05",
+    "questId": "SCI-HBL-B01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Digestion Functions", "learningObjective": "Detect a misconception about nutrient absorption.",
+    "questionType": "true-false",
+    "prompt": "🕵️ DETECT THE MISCONCEPTION: 'Usus besar adalah tempat utama penyerapan nutrisi.' Benar atau Salah?",
+    "correctAnswer": false,
+    "explanation": "Salah. Usus halus adalah tempat utama penyerapan nutrisi.",
+    "feedbackId": "FB-DIG-004", "hintId": "HINT-DIG-002", "difficulty": 5,
+    "misconceptionTarget": "DIG-M03", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["digestion-functions", "digestive-organs"]
+  },
+  {
+    "id": "SCI-HBL-B01-06",
+    "questId": "SCI-HBL-B01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Healthy Habits", "learningObjective": "Make a health decision in a scenario.",
+    "questionType": "scenario",
+    "prompt": "🏥 HEALTH DECISION: Temanmu merasa sakit perut karena makan terlalu banyak makanan pedas. Apa saran yang paling baik?",
+    "options": [
+      { "id": "a", "text": "Minum air putih dan istirahat", "icon": "✅" },
+      { "id": "b", "text": "Makan lebih banyak makanan pedas", "icon": "❌" },
+      { "id": "c", "text": "Berolahraga berat", "icon": "❌" },
+      { "id": "d", "text": "Tidak melakukan apa-apa", "icon": "❌" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Minum air putih dan istirahat adalah saran terbaik.",
+    "feedbackId": "FB-HEALTH-001", "hintId": "HINT-HEALTH-001", "difficulty": 4,
+    "misconceptionTarget": "HEALTH-M02", "sourceIds": ["SRC-IPAS-FC"],
+    "conceptIds": ["healthy-habits", "digestive-health"]
+  },
+  {
+    "id": "SCI-HBL-B01-07",
+    "questId": "SCI-HBL-B01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Body", "learningObjective": "Analyze how body systems work together.",
+    "questionType": "mcq",
+    "prompt": "📊 FINAL ANALYSIS: Bagaimana sistem pencernaan dan sistem peredaran darah bekerja bersama?",
+    "options": [
+      { "id": "a", "text": "Pencernaan menyerap nutrisi, darah mengangkutnya ke seluruh tubuh", "icon": "✅" },
+      { "id": "b", "text": "Mereka tidak bekerja sama", "icon": "❌" },
+      { "id": "c", "text": "Darah mencerna makanan", "icon": "❌" },
+      { "id": "d", "text": "Pencernaan memompa darah", "icon": "❌" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Sistem pencernaan menyerap nutrisi, dan sistem peredaran darah mengangkutnya.",
+    "feedbackId": "FB-BODY-003", "hintId": "HINT-BODY-002", "difficulty": 5,
+    "misconceptionTarget": "BODY-M01", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["human-organs", "organ-functions", "digestive-system"]
+  },
+  {
+    "id": "SCI-HBL-B01-08",
+    "questId": "SCI-HBL-B01", "world": "SCI", "zone": "SCI-HBL", "subject": "IPAS",
+    "topic": "Human Body", "learningObjective": "Complete the final integrated mission.",
+    "questionType": "classification",
+    "prompt": "🏆 HUMAN BODY GUARDIAN FINAL INTEGRATED MISSION: Susun semua organ berikut sesuai sistemnya masing-masing untuk mengalahkan Guardian!",
+    "categories": ["Pencernaan", "Peredaran Darah", "Pernapasan", "Saraf"],
+    "items": [
+      { "id": "mouth", "text": "Mulut", "icon": "👄", "category": "Pencernaan" },
+      { "id": "stomach", "text": "Lambung", "icon": "🫃", "category": "Pencernaan" },
+      { "id": "small-intestine", "text": "Usus Halus", "icon": "🌀", "category": "Pencernaan" },
+      { "id": "heart", "text": "Jantung", "icon": "❤️", "category": "Peredaran Darah" },
+      { "id": "lungs", "text": "Paru-paru", "icon": "🫁", "category": "Pernapasan" },
+      { "id": "brain", "text": "Otak", "icon": "🧠", "category": "Saraf" }
+    ],
+    "correctAnswer": {
+      "Pencernaan": ["mouth", "stomach", "small-intestine"],
+      "Peredaran Darah": ["heart"],
+      "Pernapasan": ["lungs"],
+      "Saraf": ["brain"]
+    },
+    "explanation": "Setiap organ adalah bagian dari sistem tubuh yang bekerja bersama.",
+    "feedbackId": "FB-BODY-004", "hintId": "HINT-BODY-002", "difficulty": 5,
+    "misconceptionTarget": "BODY-M01", "sourceIds": ["SRC-IPAS-FC", "SRC-SIBI-IPAS-V"],
+    "conceptIds": ["human-organs", "organ-functions", "digestive-system", "healthy-habits"]
+  }
+]

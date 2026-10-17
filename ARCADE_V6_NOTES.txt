@@ -1,0 +1,10 @@
+EDUVERSE ARCADE V6 — REVISI BAHASA, TIPOGRAFI, AUDIO, DAN TANTANGAN
+
+- Nama lima mini-game dan dunia utama dilokalkan ke Bahasa Indonesia pada Arcade dan data dunia.
+- Font utama memakai font sistem lokal agar tampil konsisten tanpa mengandalkan Google Fonts/internet.
+- Palet Arcade diubah menjadi nuansa hijau, krem, dan warna alami; panel dan bayangan dibuat lebih tenang.
+- Musik latar dan bunyi klik tombol dibuat secara lokal dengan Web Audio API. Klik tombol Musik untuk mengaktifkan karena aturan autoplay browser.
+- Brankas Matematika memakai pola perkalian bertahap dengan kode tiga digit 405; petunjuk tidak membocorkan jawaban.
+- Kode permainan inti V5 dipertahankan. Uji ulang di browser tetap disarankan setelah ekstraksi, khususnya audio dan semua alur misi.
+
+Jalankan index.html dengan VS Code + Live Server.

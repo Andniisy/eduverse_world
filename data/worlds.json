@@ -1,0 +1,52 @@
+[
+  {
+    "id": "SCI",
+    "name": "Dunia Sains",
+    "icon": "🔬",
+    "description": "Jelajahi tubuh manusia, makhluk hidup, ekosistem, dan lingkungan Indonesia.",
+    "accent": "science",
+    "order": 1,
+    "crystalId": "CRYSTAL-SCI",
+    "status": "available"
+  },
+  {
+    "id": "MAT",
+    "name": "Dunia Matematika",
+    "icon": "🔢",
+    "description": "Pecahkan tantangan bilangan, pecahan, data, dan penalaran matematika.",
+    "accent": "math",
+    "order": 2,
+    "crystalId": "CRYSTAL-MAT",
+    "status": "available"
+  },
+  {
+    "id": "LIT",
+    "name": "Dunia Literasi",
+    "icon": "📚",
+    "description": "Temukan informasi, cerita, gagasan, dan makna di balik teks.",
+    "accent": "literacy",
+    "order": 3,
+    "crystalId": "CRYSTAL-LIT",
+    "status": "locked"
+  },
+  {
+    "id": "CUL",
+    "name": "Dunia Budaya",
+    "icon": "🌏",
+    "description": "Jelajahi keberagaman budaya Indonesia dan semangat persatuan.",
+    "accent": "culture",
+    "order": 4,
+    "crystalId": "CRYSTAL-CUL",
+    "status": "locked"
+  },
+  {
+    "id": "DIG",
+    "name": "Dunia Digital",
+    "icon": "💻",
+    "description": "Berpikir logis, mengenal pemrograman, dan menjadi penjelajah digital yang cakap.",
+    "accent": "digital",
+    "order": 5,
+    "crystalId": "CRYSTAL-DIG",
+    "status": "locked"
+  }
+]

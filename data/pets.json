@@ -1,0 +1,7 @@
+[
+  { "id": "PET-MATH-CAT", "name": "Math Cat", "icon": "🐱", "world": "MAT", "description": "A clever cat who loves numbers and patterns.", "unlockCondition": "Complete Number District Q01", "cosmeticOnly": true },
+  { "id": "PET-KNOWLEDGE-OWL", "name": "Knowledge Owl", "icon": "🦉", "world": "LIT", "description": "A wise owl who enjoys stories and knowledge.", "unlockCondition": "Complete Information Library Q01", "cosmeticOnly": true },
+  { "id": "PET-READING-BUNNY", "name": "Reading Bunny", "icon": "🐰", "world": "LIT", "description": "A bunny who loves reading and discovering new words.", "unlockCondition": "Complete Story Studio Q01", "cosmeticOnly": true },
+  { "id": "PET-ECO-TURTLE", "name": "Eco Turtle", "icon": "🐢", "world": "SCI", "description": "A gentle turtle who cares for the environment.", "unlockCondition": "Complete Eco Valley Q01", "cosmeticOnly": true },
+  { "id": "PET-CODING-BOT", "name": "Coding Bot", "icon": "🤖", "world": "DIG", "description": "A helpful bot who loves logic and coding.", "unlockCondition": "Complete Coding Lab Q01", "cosmeticOnly": true }
+]

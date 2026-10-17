@@ -1,0 +1,22 @@
+[
+  { "id": "BADGE-SCI-STARTER", "name": "Science Starter", "icon": "🔬", "category": "learning", "description": "Begin your journey in Science World." },
+  { "id": "BADGE-NUM-EXPLORER", "name": "Number Explorer", "icon": "🔢", "category": "learning", "description": "Start exploring the world of numbers." },
+  { "id": "BADGE-BOOK-EXPLORER", "name": "Book Explorer", "icon": "📚", "category": "learning", "description": "Begin your literacy adventure." },
+  { "id": "BADGE-CULTURE-KEEPER", "name": "Culture Keeper", "icon": "🌏", "category": "learning", "description": "Discover Indonesia's cultural richness." },
+  { "id": "BADGE-DIGITAL-EXPLORER", "name": "Digital Explorer", "icon": "💻", "category": "learning", "description": "Start your digital journey." },
+  { "id": "BADGE-PROBLEM-SOLVER", "name": "Problem Solver", "icon": "🧩", "category": "skill", "description": "Solve problems with creative thinking." },
+  { "id": "BADGE-CRITICAL-THINKER", "name": "Critical Thinker", "icon": "🧠", "category": "skill", "description": "Analyze and think critically." },
+  { "id": "BADGE-PATTERN-FINDER", "name": "Pattern Finder", "icon": "🔍", "category": "skill", "description": "Discover patterns and sequences." },
+  { "id": "BADGE-CREATIVE-BUILDER", "name": "Creative Builder", "icon": "🏗️", "category": "skill", "description": "Build and create with imagination." },
+  { "id": "BADGE-INFO-DETECTIVE", "name": "Information Detective", "icon": "🕵️", "category": "skill", "description": "Find and analyze information." },
+  { "id": "BADGE-WORLD-EXPLORER", "name": "World Explorer", "icon": "🌍", "category": "exploration", "description": "Explore multiple worlds." },
+  { "id": "BADGE-ECO-EXPLORER", "name": "Eco Explorer", "icon": "🌿", "category": "exploration", "description": "Explore ecosystems and nature." },
+  { "id": "BADGE-NUSANTARA-EXPLORER", "name": "Nusantara Explorer", "icon": "🇮🇩", "category": "exploration", "description": "Journey through Indonesian culture." },
+  { "id": "BADGE-DIGITAL-RANGER", "name": "Digital Ranger", "icon": "🛡️", "category": "exploration", "description": "Master digital safety and responsibility." },
+  { "id": "BADGE-BODY-EXPLORER", "name": "Body Explorer", "icon": "🧬", "category": "mastery", "description": "Complete the Human Body Escape Room." },
+  { "id": "BADGE-HUMAN-BODY-MASTER", "name": "Human Body Master", "icon": "🏆", "category": "mastery", "description": "Defeat The Human Body Guardian." },
+  { "id": "BADGE-FRACTION-MASTER", "name": "Fraction Master", "icon": "🍕", "category": "mastery", "description": "Master fractions through the Fraction Café." },
+  { "id": "BADGE-DATA-DETECTIVE", "name": "Data Detective", "icon": "📊", "category": "mastery", "description": "Solve the Data City mystery." },
+  { "id": "BADGE-STORY-MASTER", "name": "Story Master", "icon": "✍️", "category": "mastery", "description": "Complete the Story Studio challenges." },
+  { "id": "BADGE-CODING-EXPLORER", "name": "Coding Explorer", "icon": "🤖", "category": "mastery", "description": "Complete the Coding Lab missions." }
+]

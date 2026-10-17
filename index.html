@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EDUVERSE - Educational Gaming Universe." />
+  <meta name="theme-color" content="#0B1026" />
+  <title>EDUVERSE - Educational Gaming Universe</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🚀%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/student.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <a href="#app" class="sr-only">Skip to main content</a>
+  <div id="app" role="application" aria-label="EDUVERSE Student Application">
+    <main id="screen-container" role="main"></main>
+  </div>
+  <div id="boot-loader" style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:var(--cosmic-navy,#0B1026);color:#F7F9FF;font-family:Cambria,Georgia,serif;z-index:9999;transition:opacity .3s ease;">
+    <div style="text-align:center">
+      <div style="font-size:4rem;margin-bottom:16px">🚀</div>
+      <div style="font-family:Cambria,Georgia,serif;font-size:1.5rem;font-weight:700">EDUVERSE</div>
+      <div style="font-size:.875rem;opacity:.7;margin-top:6px">Memuat semesta belajar...</div>
+    </div>
+  </div>
+  <script type="module">
+    import app from './js/core/app.js';
+    async function boot() {
+      const loader = document.getElementById('boot-loader');
+      try {
+        await app.boot();
+        if (loader) {
+          loader.style.opacity = '0';
+          loader.style.pointerEvents = 'none';
+          setTimeout(() => { if (loader.parentNode) loader.remove(); }, 320);
+        }
+      } catch (err) {
+        console.error('[EDUVERSE] Boot failed:', err);
+        if (loader) {
+          loader.style.pointerEvents = 'auto';
+          loader.innerHTML = `<div style="text-align:center;max-width:520px;padding:24px">
+            <div style="font-size:3rem">⚠️</div>
+            <div style="font-weight:700;margin:12px 0">EDUVERSE failed to start</div>
+            <p style="opacity:.75;font-size:.9rem;line-height:1.5">${String(err.message || err)}</p>
+            <p style="opacity:.6;font-size:.8rem;margin-top:12px">Tip: open through a local web server (browsers block fetch() from file://)</p>
+            <button onclick="location.reload()" style="margin-top:16px;padding:10px 22px;border-radius:12px;border:0;background:#7C5CFC;color:#fff;font-weight:700;cursor:pointer">Retry</button>
+          </div>`;
+        }
+      }
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
+    else boot();
+    window.addEventListener('error', (e) => console.error('[EDUVERSE] Unhandled error:', e.error || e.message));
+  </script>
+  <noscript><div style="padding:32px;color:#F7F9FF;background:#0B1026;font-family:sans-serif">
+    <h1>EDUVERSE requires JavaScript</h1><p>Please enable JavaScript to explore the learning universe.</p>
+  </div></noscript>
+</body>
+</html>

@@ -1,0 +1,17 @@
+EDUVERSE ARCADE V3 - GAMEPLAY POLISH
+
+Updates:
+- Organ Rescue: drag-and-drop organ cards to reorder them, with arrow-button controls retained for touch/accessibility. Incorrect feedback gives a directional hint without displaying the full correct order.
+- Math Vault: incorrect code feedback now gives strategy/instruction only and does not reveal the answer. The keypad display shakes briefly after an incorrect attempt.
+- Word Detective: incorrect report feedback prompts the learner to connect clues and qualify conclusions rather than giving away the conclusion.
+- Culture Quest: incorrect feedback asks the learner to reconsider visitor needs and budget without revealing the exact combination.
+- Code Runner: the robot now moves through the grid one step at a time so learners can observe and debug the program.
+- Added interaction transitions and reduced-motion accessibility support.
+
+To run:
+1. Extract this ZIP to a new folder; keep your previous backup.
+2. Open the extracted eduverse_backup_2.0 folder in VS Code.
+3. Launch index.html with Live Server.
+4. Open Arcade Edu and test each game.
+
+This is still a prototype: content scope, accessibility, and curriculum alignment should be reviewed before classroom deployment.

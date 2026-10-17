@@ -1,0 +1,74 @@
+
+body {
+  font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+  background: var(--cosmic-navy);
+  color: var(--soft-white);
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+:focus-visible {
+  outline: 3px solid var(--energy-blue);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--cosmic-purple);
+  color: var(--soft-white);
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--deep-space); }
+::-webkit-scrollbar-thumb { background: var(--space-surface); border-radius: var(--radius-full); }
+::-webkit-scrollbar-thumb:hover { background: var(--muted-star); }
+/* ─── Defensive: pastikan elemen interaktif selalu bisa diklik ─── */
+button,
+a,
+.nav-link,
+.card-interactive,
+[role="button"] {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+/* Modal overlay saat tidak aktif tidak boleh block klik */
+.modal-overlay:not(.active) {
+  pointer-events: none;
+  display: none;
+}
+
+/* Loader yang sudah selesai tidak boleh block klik */
+#boot-loader,
+#teacher-loader {
+  pointer-events: auto;
+}
+
+#boot-loader[style*="opacity: 0"],
+#teacher-loader[style*="opacity: 0"] {
+  pointer-events: none;
+}
+
+/* EDUVERSE V8: tipografi Cambria yang konsisten di seluruh aplikasi */
+:root { --font-primary: Cambria, Georgia, serif; --font-display: Cambria, Georgia, serif; }
+html, body, body *, button, input, textarea, select, option { font-family: Cambria, Georgia, serif !important; }
+
+/* Universal music control stays available across all EDUVERSE screens. */
+.ev-universe-audio{position:fixed;right:18px;bottom:18px;z-index:10020;border:1px solid #b9cbb6;border-radius:999px;padding:11px 15px;background:#fffdf5;color:#2f5140;box-shadow:0 5px 18px #14251b24;font:700 .9rem Cambria,Georgia,serif;cursor:pointer;pointer-events:auto}
+.ev-universe-audio[aria-pressed='true']{background:#dcebd8;border-color:#82a985}
+.ev-universe-audio:focus-visible{outline:3px solid #e8b65a;outline-offset:3px}
+@media(max-width:600px){.ev-universe-audio{right:10px;bottom:10px;padding:9px 12px;font-size:.82rem}}

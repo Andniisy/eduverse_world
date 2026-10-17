@@ -1,0 +1,44 @@
+[
+  {
+    "id": "SRC-IPAS-FC",
+    "title": "Capaian Pembelajaran IPAS Fase A–C",
+    "type": "official-curriculum",
+    "publisher": "Kementerian Pendidikan",
+    "year": 2024,
+    "validation": "A",
+    "url": "https://kurikulum.kemdikbud.go.id/file/cp/dasmen/13.%20CP%20IPAS.pdf"
+  },
+  {
+    "id": "SRC-SIBI-IPAS-V",
+    "title": "Ilmu Pengetahuan Alam dan Sosial untuk SD/MI Kelas V Edisi Revisi",
+    "type": "official-textbook",
+    "isbn": "978-623-388-160-9",
+    "validation": "B",
+    "url": "https://buku.kemendikdasmen.go.id/katalog/ilmu-pengetahuan-alam-dan-sosial-untuk-sd-mi-kelas-v-edisi-revisi"
+  },
+  {
+    "id": "SRC-BI-FC",
+    "title": "Capaian Pembelajaran Bahasa Indonesia Fase A–F",
+    "type": "official-curriculum",
+    "publisher": "Kementerian Pendidikan",
+    "year": 2024,
+    "validation": "A",
+    "url": "https://kurikulum.kemdikbud.go.id/file/cp/dasmen/8.%20CP%20Bahasa%20Indonesia.pdf"
+  },
+  {
+    "id": "SRC-PANCASILA-FC",
+    "title": "Capaian Pembelajaran Pendidikan Pancasila",
+    "type": "official-curriculum",
+    "publisher": "Kementerian Pendidikan",
+    "year": 2024,
+    "validation": "A",
+    "url": "https://kurikulum.kemdikbud.go.id/file/1692790779_manage_file.pdf"
+  },
+  {
+    "id": "SRC-KODING-GRADE5",
+    "title": "Panduan Guru Koding dan Kecerdasan Artifisial untuk SD/MI Kelas V",
+    "type": "official-textbook",
+    "validation": "B",
+    "url": "https://buku.kemendikdasmen.go.id/katalog/panduan-guru-koding-dan-kecerdasan-artifisial-untuk-sdmi-kelas-v"
+  }
+]

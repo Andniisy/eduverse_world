@@ -1,0 +1,33 @@
+@media (max-width: 1024px) {
+  :root { --sidebar-width: 240px; }
+  .grid-3 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --text-4xl: 1.875rem;
+    --text-3xl: 1.5rem;
+    --text-2xl: 1.25rem;
+    --space-8: 1.5rem;
+    --space-12: 2rem;
+  }
+
+  .screen { padding: var(--space-4); }
+  .navbar { padding: 0 var(--space-4); }
+  .navbar-brand span { display: none; }
+  .nav-link span { display: none; }
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .modal { padding: var(--space-6); }
+  .question-option { padding: var(--space-3); }
+  .toast-container { left: var(--space-4); right: var(--space-4); bottom: var(--space-4); }
+  .toast { max-width: 100%; }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --text-4xl: 1.5rem;
+    --text-3xl: 1.25rem;
+  }
+  .btn-lg { padding: var(--space-3) var(--space-6); font-size: var(--text-base); }
+  .avatar-lg { width: 80px; height: 80px; font-size: 2.5rem; }
+}

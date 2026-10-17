@@ -1,0 +1,13 @@
+[
+  { "id": "FB-BODY-001", "type": "correct", "message": "That's right! Your eyes help you see the world around you." },
+  { "id": "FB-BODY-002", "type": "incorrect", "message": "Good try! Think about what body part helps you see. It's not your ears." },
+  { "id": "FB-BODY-003", "type": "misconception", "message": "Remember, organs work together! Your eyes don't work alone — they send signals to your brain.", "misconceptionId": "BODY-M01" },
+  { "id": "FB-BODY-004", "type": "mastery", "message": "You understand organ functions well! Let's explore how they work together." },
+  { "id": "FB-DIG-001", "type": "correct", "message": "Correct! Food goes from your mouth to your esophagus before reaching your stomach." },
+  { "id": "FB-DIG-002", "type": "incorrect", "message": "Almost! Think about what connects your mouth to your stomach." },
+  { "id": "FB-DIG-003", "type": "misconception", "message": "Don't skip the esophagus! Food travels through the esophagus — a tube that connects your mouth to your stomach.", "misconceptionId": "DIG-M01" },
+  { "id": "FB-DIG-004", "type": "misconception", "message": "The stomach breaks down food, but the small intestine is where most nutrients are absorbed.", "misconceptionId": "DIG-M02" },
+  { "id": "FB-HEALTH-001", "type": "correct", "message": "Great! Healthy food can be delicious and fun to eat." },
+  { "id": "FB-HEALTH-002", "type": "incorrect", "message": "Good try! Think about what makes a meal balanced." },
+  { "id": "FB-HEALTH-003", "type": "misconception", "message": "Healthy food doesn't have to taste bad! Fruits, smoothies, and colorful vegetables are healthy and tasty.", "misconceptionId": "HEALTH-M01" }
+]

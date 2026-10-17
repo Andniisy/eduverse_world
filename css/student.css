@@ -1,0 +1,305 @@
+.reduce-motion *, body.reduce-motion * {
+  animation: none !important;
+  transition: none !important;
+}
+
+@media (max-width: 480px) {
+  .question-prompt { font-size: var(--text-lg); }
+  .question-option { font-size: var(--text-sm); }
+}
+
+#cards.knowledge-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+#quest-groups h2 { margin-top: var(--space-6); }
+.stat-value { font-variant-numeric: tabular-nums; }
+
+/* EDUVERSE avatar profession selector */
+.ev-avatar-layout{display:grid;grid-template-columns:minmax(250px,300px) minmax(0,1fr);gap:24px;align-items:start}
+.ev-avatar-preview{position:sticky;top:84px;text-align:center;padding:24px;overflow:hidden}
+.ev-eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.12em;color:var(--muted-star);margin:0 0 14px}
+.ev-avatar-image{height:270px;display:flex;align-items:center;justify-content:center;margin:0 auto 10px;max-width:100%}
+.ev-avatar-image img{max-height:260px}
+.ev-avatar-name{font-size:1.45rem;margin:10px 0 4px}
+.ev-avatar-profession{font-weight:800;color:var(--knowledge-cyan);margin:0}
+.ev-avatar-hint{font-size:.85rem;line-height:1.5;color:var(--muted-star);margin:14px 0 22px}
+.ev-avatar-preview #ev-avatar-save{width:100%;white-space:normal}
+.ev-profession-panel{min-width:0}
+.ev-profession-title{font-size:1.3rem;margin:4px 0 4px}
+.ev-profession-subtitle{color:var(--muted-star);margin:0 0 18px;line-height:1.5}
+.ev-profession-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.ev-profession-card{position:relative;display:flex;align-items:center;gap:12px;min-width:0;min-height:132px;padding:14px;text-align:left;color:var(--text-primary,#F7F9FF);background:var(--space-surface,#111936);border:1.5px solid rgba(164,177,211,.35);border-radius:18px;cursor:pointer;transition:border-color .18s,background .18s,transform .18s}
+.ev-profession-card:hover{border-color:var(--cosmic-purple,#7C5CFC);transform:translateY(-2px)}
+.ev-profession-card.is-selected{border-color:var(--cosmic-purple,#7C5CFC);background:rgba(124,92,252,.15);box-shadow:0 0 0 1px rgba(124,92,252,.2)}
+.ev-profession-thumb{display:flex;align-items:flex-end;justify-content:center;flex:0 0 72px;height:100px;overflow:hidden}
+.ev-profession-thumb img{width:72px;height:96px;object-fit:contain}
+.ev-profession-copy{display:flex;flex-direction:column;gap:5px;min-width:0;padding-right:12px}
+.ev-profession-copy strong{font-size:1rem;line-height:1.25}
+.ev-profession-copy small{font-size:.78rem;line-height:1.4;color:var(--muted-star)}
+.ev-profession-check{position:absolute;right:10px;top:10px;display:flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-size:.8rem;font-weight:900;background:var(--cosmic-purple,#7C5CFC);color:white}
+.ev-profession-card:not(.is-selected) .ev-profession-check{background:transparent;border:1px solid rgba(164,177,211,.35)}
+@media(max-width:760px){.ev-avatar-layout{grid-template-columns:1fr}.ev-avatar-preview{position:static}.ev-avatar-image{height:230px}.ev-profession-grid{grid-template-columns:1fr}.ev-profession-card{min-height:112px}}
+@media(max-width:390px){.ev-profession-card{gap:8px;padding:10px}.ev-profession-thumb{flex-basis:60px}.ev-profession-thumb img{width:60px}.ev-profession-copy strong{font-size:.92rem}}
+
+
+
+/* EDUVERSE game-first city dashboard */
+.ev-city-container{max-width:1240px;padding-top:clamp(22px,4vw,52px);padding-bottom:48px}
+.ev-city-welcome{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin:12px 0 32px;padding:10px 2px}
+.ev-city-welcome-copy{max-width:760px}
+.ev-city-kicker{display:inline-block;margin-bottom:12px;color:#83e8f3;font-size:.76rem;font-weight:900;letter-spacing:.16em}
+.ev-city-welcome h1{margin:0 0 12px;font-size:clamp(2rem,4vw,3.25rem);line-height:1.08;letter-spacing:-.035em}
+.ev-city-welcome p{max-width:660px;margin:0;color:var(--muted-star);font-size:1.05rem;line-height:1.65}
+.ev-city-progress-chip{display:flex;align-items:center;gap:10px;flex-shrink:0;padding:12px 16px;border:1px solid rgba(164,177,211,.22);border-radius:18px;background:rgba(24,34,69,.8)}
+.ev-city-progress-chip>span{font-size:1.6rem}.ev-city-progress-chip strong,.ev-city-progress-chip small{display:block}.ev-city-progress-chip small{margin-top:3px;color:var(--muted-star);font-size:.76rem}
+.ev-featured-activities{margin-bottom:38px}.ev-featured-activities>h2,.ev-section-heading h2{margin:0 0 16px;font-size:1.45rem}
+.ev-featured-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.ev-feature-card{position:relative;display:flex;align-items:center;gap:18px;min-width:0;min-height:250px;padding:24px;text-align:left;overflow:hidden;color:#fff;border:1px solid rgba(255,255,255,.13);border-radius:26px;cursor:pointer;isolation:isolate;transition:transform .2s,border-color .2s,filter .2s}
+.ev-feature-card:hover{transform:translateY(-5px);border-color:rgba(255,255,255,.42);filter:brightness(1.06)}
+.ev-feature-card:focus-visible,.ev-secondary-card:focus-visible,.ev-navbar-profile:focus-visible{outline:3px solid #8cecf5;outline-offset:3px}
+.ev-feature-arcade{background:radial-gradient(ellipse at 18% 30%,rgba(255,255,255,.22),transparent 36%),linear-gradient(135deg,#7c4dff 0%,#5633be 48%,#24245d 100%)}
+.ev-feature-portal{background:radial-gradient(ellipse at 18% 30%,rgba(255,255,255,.22),transparent 36%),linear-gradient(135deg,#11a8b9 0%,#177d9b 45%,#203b70 100%)}
+.ev-feature-art{position:relative;display:flex;align-items:center;justify-content:center;flex:0 0 140px;height:160px}
+.ev-feature-orbit{position:absolute;width:136px;height:136px;border:1px solid rgba(255,255,255,.4);border-radius:42% 58% 53% 47%;transform:rotate(-24deg);background:rgba(255,255,255,.08);box-shadow:0 0 0 14px rgba(255,255,255,.045),0 18px 45px rgba(0,0,0,.12)}
+.ev-feature-icon{position:relative;z-index:1;font-size:5.5rem;filter:drop-shadow(0 10px 9px rgba(0,0,0,.2));transform:rotate(-7deg)}
+.ev-feature-spark{position:absolute;color:#fff5a8;font-size:1.8rem}.spark-one{top:8px;right:4px}.spark-two{bottom:16px;left:0;font-size:1.4rem}
+.ev-feature-content{position:relative;z-index:1;display:flex;flex:1;flex-direction:column;align-items:flex-start;gap:10px;min-width:0}
+.ev-feature-eyebrow{font-size:.7rem;font-weight:900;letter-spacing:.16em;color:rgba(255,255,255,.8)}
+.ev-feature-content>strong{font-size:clamp(1.45rem,2.4vw,2rem);line-height:1.1}
+.ev-feature-desc{max-width:280px;color:rgba(255,255,255,.85);font-size:.92rem;line-height:1.5}
+.ev-feature-cta{display:inline-flex;align-items:center;gap:12px;margin-top:5px;padding:10px 14px;border-radius:12px;background:#fff;color:#24254b;font-weight:850;font-size:.88rem;box-shadow:0 5px 16px rgba(0,0,0,.1)}
+.ev-feature-cta span{font-size:1.2rem;line-height:1}
+.ev-other-places{padding-top:4px}.ev-section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:16px}.ev-section-heading h2{margin:0}.ev-section-heading p{margin:0;color:var(--muted-star);font-size:.88rem}
+.ev-secondary-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.ev-secondary-card{display:flex;align-items:center;gap:12px;min-width:0;padding:16px 14px;text-align:left;color:var(--text-primary,#f7f9ff);background:rgba(20,30,61,.76);border:1px solid rgba(164,177,211,.15);border-radius:18px;cursor:pointer;transition:background .2s,border-color .2s,transform .2s}
+.ev-secondary-card:hover{background:rgba(35,47,88,.9);border-color:rgba(164,177,211,.38);transform:translateY(-2px)}
+.ev-secondary-icon{display:flex;align-items:center;justify-content:center;flex:0 0 44px;height:44px;border-radius:13px;background:rgba(255,255,255,.07);font-size:1.8rem}
+.ev-secondary-copy{display:flex;flex:1;flex-direction:column;gap:5px;min-width:0}.ev-secondary-copy strong{font-size:.92rem;line-height:1.25}.ev-secondary-copy small{color:var(--muted-star);font-size:.76rem;line-height:1.35}.ev-secondary-arrow{color:var(--muted-star);font-size:1.6rem}
+.ev-navbar-profile{display:flex;align-items:center;gap:9px;margin-left:4px;padding:5px 10px 5px 5px;color:var(--text-primary,#f7f9ff);background:rgba(124,92,252,.13);border:1px solid rgba(124,92,252,.42);border-radius:16px;cursor:pointer;transition:background .2s,border-color .2s}
+.ev-navbar-profile:hover{background:rgba(124,92,252,.24);border-color:var(--cosmic-purple)}.ev-navbar-avatar{display:flex;align-items:center;justify-content:center;width:40px;height:40px;overflow:hidden;border-radius:12px;background:rgba(255,255,255,.08)}.ev-navbar-avatar img{max-height:38px!important;object-fit:contain}.ev-navbar-profile-copy{text-align:left}.ev-navbar-profile-copy strong,.ev-navbar-profile-copy small{display:block;white-space:nowrap}.ev-navbar-profile-copy strong{max-width:110px;overflow:hidden;text-overflow:ellipsis;font-size:.83rem}.ev-navbar-profile-copy small{margin-top:3px;color:var(--muted-star);font-size:.7rem}.ev-navbar-chevron{margin-left:2px;color:var(--muted-star)}
+@media(max-width:900px){.ev-secondary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ev-feature-card{padding:18px;gap:10px}.ev-feature-art{flex-basis:100px;height:130px}.ev-feature-orbit{width:100px;height:100px}.ev-feature-icon{font-size:4.3rem}}
+@media(max-width:650px){.ev-city-welcome{align-items:flex-start;flex-direction:column}.ev-featured-grid{grid-template-columns:1fr}.ev-feature-card{min-height:205px}.ev-feature-art{flex-basis:110px}.ev-section-heading{align-items:flex-start;flex-direction:column;gap:5px}.ev-secondary-grid{grid-template-columns:1fr 1fr}.ev-navbar-profile-copy{display:none}.ev-navbar-profile{padding:4px}.ev-navbar-chevron{display:none}}
+@media(max-width:390px){.ev-city-container{padding-left:8px;padding-right:8px}.ev-feature-card{gap:8px;padding:14px}.ev-feature-art{flex-basis:82px;height:110px}.ev-feature-orbit{width:78px;height:78px}.ev-feature-icon{font-size:3.6rem}.ev-feature-content>strong{font-size:1.3rem}.ev-feature-desc{font-size:.8rem}.ev-secondary-grid{grid-template-columns:1fr}}
+
+
+/* EDUVERSE Arcade Edu - playable mini-games V1 */
+.ev-arcade-screen{padding:20px 0 56px;background:radial-gradient(ellipse at 75% 0%,rgba(89,66,180,.18),transparent 45%)}
+.ev-arcade-container{max-width:1180px}
+.ev-arcade-header{display:grid;grid-template-columns:auto 1fr auto;gap:22px;align-items:center;margin:10px 0 26px}
+.ev-arcade-header h1{font-size:clamp(2rem,4vw,3.2rem);margin:0;line-height:1.05}.ev-arcade-header h1 span{color:#9a83ff}.ev-arcade-header p{margin:6px 0 0;color:#b9c7e9}.ev-arcade-kicker{font-size:.72rem;font-weight:900;letter-spacing:.16em;color:#9d8cff;margin:0 0 7px}.ev-arcade-wallet{display:flex;gap:10px;flex-wrap:wrap}.ev-arcade-wallet span{padding:11px 14px;background:#161f40;border:1px solid #29345e;border-radius:14px;white-space:nowrap}
+.ev-arcade-feature{position:relative;overflow:hidden;display:flex;justify-content:space-between;align-items:center;min-height:225px;padding:30px 34px;border:1px solid #5143a4;border-radius:26px;background:linear-gradient(115deg,#27235d,#1b2850 60%,#17465b);box-shadow:0 18px 48px #05091c55}.ev-arcade-feature-copy{max-width:700px;position:relative;z-index:1}.ev-arcade-pill{display:inline-flex;background:#7865dc;color:white;border-radius:30px;padding:6px 11px;font-size:.7rem;font-weight:900;letter-spacing:.1em}.ev-arcade-feature h2{font-size:clamp(1.45rem,3vw,2.2rem);margin:12px 0 8px}.ev-arcade-feature p{max-width:650px;color:#d2d9f3;line-height:1.65;margin:0}.ev-arcade-feature-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.ev-arcade-feature-tags span{padding:7px 10px;background:#ffffff12;border:1px solid #ffffff20;border-radius:20px;font-size:.83rem}.ev-arcade-feature-planet{font-size:6.5rem;min-width:180px;text-align:center;filter:drop-shadow(0 10px 25px #0005);position:relative}.ev-arcade-feature-planet i,.ev-arcade-feature-planet b{position:absolute;font-style:normal;font-size:1.5rem;color:#ffe78c}.ev-arcade-feature-planet i{top:8px;right:28px}.ev-arcade-feature-planet b{bottom:0;left:30px}
+.ev-arcade-section-title{display:flex;justify-content:space-between;align-items:end;margin:34px 0 17px}.ev-arcade-section-title h2{margin:0;font-size:1.55rem}.ev-arcade-section-title p{color:#aebde0;margin:4px 0 0}.ev-arcade-count{font-size:.75rem;letter-spacing:.12em;font-weight:900;color:#b6a8ff;background:#282451;padding:8px 11px;border-radius:20px}.ev-arcade-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.ev-game-card{display:flex;flex-direction:column;align-items:flex-start;text-align:left;position:relative;min-width:0;overflow:hidden;padding:18px;border-radius:22px;border:1px solid #29355e;background:linear-gradient(155deg,#182342,#111a34);color:#f7f8ff;cursor:pointer;transition:transform .18s,border-color .18s,box-shadow .18s}.ev-game-card:hover,.ev-game-card:focus-visible{transform:translateY(-4px);border-color:#8271ff;box-shadow:0 15px 32px #05091c70;outline:none}.ev-game-number{font-size:.68rem;font-weight:900;letter-spacing:.14em;color:#9fb1d7}.ev-game-art{width:100%;height:115px;display:flex;align-items:center;justify-content:center;position:relative;margin:8px 0 12px;border-radius:16px;font-size:4rem;background:radial-gradient(circle at 50% 50%,#ffffff1c,transparent 65%),linear-gradient(135deg,#252b59,#1b4160)}.ev-game-art i{position:absolute;right:23%;top:18%;font-style:normal;color:#ffe78b;font-size:1rem}.ev-game-style{font-size:.63rem;letter-spacing:.1em;font-weight:900;color:#9b8cff}.ev-game-card strong{font-size:1.27rem;margin:6px 0}.ev-game-desc{color:#bac7e5;line-height:1.5;font-size:.88rem;min-height:60px}.ev-game-skill{font-size:.79rem;color:#e1e7ff;background:#ffffff0b;padding:8px 10px;border-radius:10px;margin-top:12px}.ev-game-footer{display:flex;justify-content:space-between;align-items:center;gap:8px;width:100%;border-top:1px solid #2a3557;padding-top:13px;margin-top:15px}.ev-game-footer small{color:#9faed0}.ev-game-footer b{color:#b5a5ff;font-size:.86rem}.ev-game-coral .ev-game-art{background:linear-gradient(135deg,#58334a,#913f52)}.ev-game-gold .ev-game-art{background:linear-gradient(135deg,#55442a,#8a6229)}.ev-game-mint .ev-game-art{background:linear-gradient(135deg,#214c51,#267467)}.ev-game-violet .ev-game-art{background:linear-gradient(135deg,#44325f,#68478a)}.ev-game-blue .ev-game-art{background:linear-gradient(135deg,#203b67,#286d87)}.ev-arcade-note{margin:22px 0 0;color:#aebde0;font-size:.88rem}
+.ev-game-panel{margin-top:28px;padding:24px;border:1px solid #5143a4;border-radius:24px;background:#111a35;box-shadow:0 20px 45px #05091c55;scroll-margin-top:20px}.ev-game-panel-top{display:flex;justify-content:space-between;align-items:center;gap:12px}.ev-game-panel-top h2{margin:0;font-size:1.65rem}.ev-game-intro{color:#bdc9e8}.ev-game-scene{display:flex;align-items:center;gap:18px;padding:18px 22px;border-radius:18px;background:linear-gradient(110deg,#3d2b58,#213e5e);position:relative;overflow:hidden}.ev-game-scene>span:first-child{font-size:3rem}.ev-game-scene strong,.ev-game-scene small{display:block}.ev-game-scene strong{letter-spacing:.12em;font-size:.75rem}.ev-game-scene small{color:#c6d3f0;margin-top:4px}.ev-scene-gold{background:linear-gradient(110deg,#544222,#5b4a2d)}.ev-scene-mint{background:linear-gradient(110deg,#214d4a,#245d68)}.ev-scene-violet{background:linear-gradient(110deg,#4b315f,#2d3d66)}.ev-scene-blue{background:linear-gradient(110deg,#203b67,#246779)}.ev-scene-spark{margin-left:auto;color:#ffe78b;font-size:2rem}.ev-game-question{max-width:800px;margin:24px auto 4px}.ev-question-label{font-size:.7rem;font-weight:900;letter-spacing:.14em;color:#a79aff}.ev-game-question h3{font-size:1.2rem;line-height:1.5;margin:10px 0 18px}.ev-game-choices{display:grid;gap:10px}.ev-choice{display:flex;align-items:center;gap:12px;text-align:left;padding:13px 15px;border:1px solid #354269;border-radius:13px;background:#192443;color:#f6f7ff;cursor:pointer}.ev-choice>span{display:grid;place-items:center;flex:0 0 29px;height:29px;border-radius:9px;background:#303b64;font-weight:900}.ev-choice:hover,.ev-choice.selected{border-color:#9c88ff;background:#282753}.ev-choice.answer-correct{border-color:#55c991;background:#163d3a}.ev-choice.answer-wrong{border-color:#e47b80;background:#482735}.ev-choice:disabled{cursor:default}.ev-game-feedback{margin-top:14px;padding:13px 15px;border-radius:12px;line-height:1.55}.ev-game-feedback.hint{background:#29254d;color:#ded7ff}.ev-game-feedback.correct{background:#153e35;color:#baf3d6}.ev-game-feedback.retry{background:#49351f;color:#ffe1ad}.ev-game-actions{display:flex;justify-content:space-between;gap:12px;margin-top:18px}.ev-game-actions button:disabled{opacity:.45;cursor:not-allowed}.ev-game-complete{text-align:center;padding:15px 5px}.ev-game-complete>div:first-child{font-size:3.5rem}.ev-game-complete h3{font-size:1.8rem;margin:5px}.ev-game-complete p{color:#c4cdea;line-height:1.6}.ev-game-reward{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:18px}.ev-game-reward span{padding:10px 14px;border-radius:12px;background:#24274f;font-weight:900}.ev-game-reflection{font-size:.9rem}
+@media(max-width:900px){.ev-arcade-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ev-arcade-header{grid-template-columns:auto 1fr}.ev-arcade-wallet{grid-column:2}.ev-arcade-feature-planet{min-width:120px;font-size:5rem}}
+@media(max-width:600px){.ev-arcade-header{grid-template-columns:1fr;gap:12px}.ev-arcade-wallet{grid-column:auto}.ev-arcade-feature{padding:22px;min-height:0}.ev-arcade-feature-planet{display:none}.ev-arcade-grid{grid-template-columns:1fr}.ev-game-card{padding:16px}.ev-game-art{height:90px}.ev-game-desc{min-height:0}.ev-game-panel{padding:16px}.ev-game-panel-top{align-items:flex-start}.ev-game-panel-top h2{font-size:1.3rem}.ev-game-actions{flex-direction:column-reverse}.ev-game-actions button{width:100%}.ev-arcade-section-title{align-items:flex-start}}
+
+/* Arcade Edu V2 — interactive mini-game arenas */
+.ev-interactive-game{margin-top:28px;border:1px solid rgba(124,92,252,.42);border-radius:24px;padding:clamp(16px,3vw,28px);background:linear-gradient(145deg,rgba(23,33,70,.98),rgba(13,19,46,.98));box-shadow:0 22px 55px rgba(0,0,0,.22)}
+.ev-interactive-game .ev-game-question h3{margin:12px 0;font-size:clamp(1.1rem,2vw,1.45rem);line-height:1.35}.ev-mini-instruction{color:#b9c7eb;font-size:.94rem;margin:.4rem 0 1rem;line-height:1.5}.ev-organ-sort{display:grid;gap:9px;margin:18px 0}.ev-organ-row{display:flex;align-items:center;gap:12px;background:#202b53;border:1px solid #384873;border-radius:14px;padding:10px 12px}.ev-organ-index{display:grid;place-items:center;background:#7c5cfc;color:white;border-radius:9px;min-width:32px;height:32px}.ev-organ-label{flex:1;font-weight:800}.ev-organ-move{display:flex;gap:6px}.ev-organ-move button,.ev-vault-pad button{border:1px solid #63729d;background:#17213f;color:#fff;border-radius:10px;padding:8px 13px;font-weight:900;cursor:pointer}.ev-organ-move button:disabled{opacity:.3;cursor:not-allowed}
+.ev-vault-door{max-width:330px;margin:18px auto;padding:20px;border:5px solid #6879a7;border-radius:22px;background:linear-gradient(145deg,#35466f,#1a2548);text-align:center;box-shadow:inset 0 0 0 3px #17213f}.ev-vault-lock{font-size:2.5rem}.ev-vault-display{margin:10px auto 14px;padding:12px;border-radius:10px;background:#080e22;color:#8fffc0;font:800 1.7rem monospace;letter-spacing:.2em}.ev-vault-pad{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}.ev-vault-pad button{font-size:1.1rem;padding:11px}.ev-vault-pad button:hover,.ev-organ-move button:hover{background:#7c5cfc}
+.ev-detective-scene{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0;padding:22px 12px;border-radius:18px;background:linear-gradient(160deg,#294a6b,#182847);min-height:135px}.ev-detective-scene button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;border:1px solid #607aa4;background:#17233f;border-radius:14px;color:white;font-size:2rem;cursor:pointer;min-height:90px}.ev-detective-scene button small{font-size:.8rem}.ev-detective-scene button.found{border-color:#62e5ad;background:#204d50;box-shadow:0 0 0 2px rgba(98,229,173,.18)}.ev-clue-board,.ev-report-board{padding:14px;margin:12px 0;border-radius:14px;background:#1a2548;border:1px solid #364773}.ev-clue-board p{margin:8px 0;color:#d3defa}.ev-report-board label{display:block;font-weight:800;margin-bottom:8px}.ev-report-board textarea{width:100%;resize:vertical;background:#0d1530;color:#fff;border:1px solid #586b99;border-radius:10px;padding:12px;font:inherit}
+.ev-budget-meter{padding:12px 15px;margin:14px 0;background:#101a37;border-radius:12px;color:#d9e4ff}.ev-budget-meter strong{color:#ffd76b;font-size:1.2rem}.ev-culture-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.ev-culture-item{display:flex;flex-direction:column;gap:8px;text-align:left;padding:15px;border-radius:15px;background:#202b53;color:#fff;border:2px solid #3c4b78;cursor:pointer}.ev-culture-item b{font-size:1rem}.ev-culture-item span{color:#c6d3f4;line-height:1.4}.ev-culture-item small{color:#ffda76;font-weight:800}.ev-culture-item.selected{border-color:#68e5b0;background:#20494e}.ev-culture-status{margin-top:12px;color:#bdcbed}
+.ev-runner-grid{display:grid;grid-template-columns:repeat(4,56px);gap:7px;justify-content:center;margin:18px auto}.ev-runner-cell{display:grid;place-items:center;width:56px;height:56px;border-radius:12px;background:#24335c;border:1px solid #50638f;font-size:1.6rem}.ev-runner-cell.start{background:#1f594c;border-color:#5adca7}.ev-runner-cell.goal{background:#5b4820;border-color:#ffcf62}.ev-command-list{padding:12px;border-radius:12px;background:#0e1732;color:#bfe9ff;text-align:center;font-weight:800;overflow-wrap:anywhere}.ev-runner-controls{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:12px 0}.ev-runner-controls button{border:1px solid #526a9e;background:#202d53;color:#fff;padding:9px 12px;border-radius:10px;font-weight:800;cursor:pointer}.ev-runner-actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:12px 0}.ev-runner-message{padding:10px;text-align:center;color:#d5e0ff}.ev-game-feedback.retry{background:rgba(247,166,71,.13);border:1px solid rgba(247,166,71,.4);padding:14px;border-radius:12px}.ev-game-feedback.correct{background:rgba(69,213,151,.13);border:1px solid rgba(69,213,151,.4);padding:14px;border-radius:12px}.ev-game-feedback.hint{background:rgba(124,92,252,.15);border:1px solid rgba(124,92,252,.4);padding:14px;border-radius:12px}.ev-game-complete{margin-top:16px;padding:20px;border-radius:18px;text-align:center;background:#172548;border:1px solid #43578a}.ev-game-complete>div:first-child{font-size:2.3rem}.ev-game-reward{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin:14px 0}.ev-game-reward span{padding:9px 14px;border-radius:999px;background:#263761;font-weight:900}
+@media(max-width:600px){.ev-culture-items{grid-template-columns:1fr}.ev-runner-grid{grid-template-columns:repeat(4,48px)}.ev-runner-cell{width:48px;height:48px}.ev-detective-scene{padding:12px 8px;gap:7px}.ev-detective-scene button{font-size:1.6rem}.ev-organ-row{gap:7px;padding:8px}}
+
+/* Arcade V3: tactile puzzle interactions and motion */
+.ev-organ-row{cursor:grab;transition:transform .16s ease,border-color .16s ease,background .16s ease;touch-action:pan-y;user-select:none}.ev-organ-row:active{cursor:grabbing}.ev-organ-row.dragging{opacity:.42;transform:scale(.98)}.ev-organ-row.drag-over{border-color:#8be8c1;background:#214b4b;transform:translateY(-2px)}.ev-organ-grip{font-size:1.35rem;color:#aab8e8;letter-spacing:-.15em;cursor:grab}.ev-puzzle-progress{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#b9c8ee;font-size:.78rem;font-weight:900;letter-spacing:.04em;margin-top:12px}.ev-puzzle-progress span:last-child{color:#a99aff}.ev-organ-row:hover{border-color:#8a7bff}.ev-vault-display.vault-shake{animation:ev-vault-shake .32s ease-in-out;border:1px solid #ff8c8c;color:#ffb2b2}.ev-vault-nudge{font-size:.84rem;color:#b9c8ee;text-align:center;margin-top:12px}.ev-vault-pad button{transition:transform .12s ease,background .12s ease}.ev-vault-pad button:active{transform:scale(.92)}.ev-detective-scene button{transition:transform .18s ease,box-shadow .18s ease}.ev-detective-scene button:hover{transform:translateY(-4px);box-shadow:0 8px 18px #080e2255}.ev-detective-scene button.found{animation:ev-clue-pop .28s ease-out}.ev-culture-item{transition:transform .16s ease,border-color .16s ease}.ev-culture-item:hover{transform:translateY(-3px)}.ev-runner-cell{transition:background .18s ease,transform .18s ease;position:relative}.ev-runner-cell:has(+ .ev-runner-cell){isolation:isolate}ev-runner-message{min-height:42px}.ev-game-scene>span:first-child{animation:ev-game-float 2.8s ease-in-out infinite}.ev-game-scene .ev-scene-spark{animation:ev-game-twinkle 1.7s ease-in-out infinite alternate}
+@keyframes ev-vault-shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+@keyframes ev-clue-pop{0%{transform:scale(.9)}65%{transform:scale(1.06)}100%{transform:scale(1)}}
+@keyframes ev-robot-step{0%{transform:scale(.84)}100%{transform:scale(1)}}
+@keyframes ev-game-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes ev-game-twinkle{from{opacity:.45;transform:scale(.85) rotate(-8deg)}to{opacity:1;transform:scale(1.12) rotate(8deg)}}
+@media(prefers-reduced-motion:reduce){.ev-organ-row,.ev-vault-pad button,.ev-detective-scene button,.ev-culture-item,.ev-runner-cell,.ev-game-scene>span:first-child,.ev-game-scene .ev-scene-spark{animation:none!important;transition:none!important}}
+
+
+/* EDUVERSE V4 — arena-first layout, functional body-placement puzzle */
+.ev-interactive-game .ev-game-scene{display:none}
+.ev-interactive-game .ev-game-intro{display:none}
+.ev-interactive-game .ev-game-panel-top{padding-bottom:14px;border-bottom:1px solid #334365}
+.ev-interactive-game .ev-game-panel-top h2{font-size:clamp(1.45rem,2.5vw,2rem);letter-spacing:-.025em}
+.ev-interactive-game .ev-game-question{max-width:none;margin:16px 0 4px}
+.ev-game-science-panel{background:linear-gradient(145deg,#101c37,#11182e);border-color:#355a70}
+.ev-organ-game{color:#f3f7ff}
+.ev-organ-mission{margin-bottom:16px}
+.ev-organ-mission h3{font-size:clamp(1.25rem,2vw,1.7rem)!important;margin:7px 0!important}
+.ev-organ-arena{display:grid;grid-template-columns:minmax(300px,1.08fr) minmax(260px,.92fr);gap:16px;align-items:stretch}
+.ev-body-board,.ev-organ-tray-wrap{border:1px solid #354765;border-radius:20px;background:linear-gradient(160deg,#182846,#131d35);padding:16px;min-width:0}
+.ev-body-heading,.ev-organ-tray-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;font-size:.78rem;letter-spacing:.05em}
+.ev-body-heading span,.ev-organ-tray-heading span{color:#9ce5cb;font-size:.7rem;font-weight:900}
+.ev-body-figure{position:relative;width:min(100%,370px);height:450px;margin:12px auto 0}
+.ev-body-silhouette{width:100%;height:100%;display:block}
+.ev-organ-dropzone{position:absolute;transform:translate(-50%,-50%);width:166px;min-height:44px;padding:7px 10px 7px 34px;border:1px dashed #e5b8a0;border-radius:13px;background:rgba(26,43,67,.94);color:#fff;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;box-shadow:0 5px 14px #08112435;transition:background .16s,border-color .16s,transform .16s}
+.ev-organ-dropzone .ev-drop-number{position:absolute;left:8px;top:50%;transform:translateY(-50%);width:19px;height:19px;border-radius:50%;display:grid;place-items:center;background:#e7ad87;color:#273247;font-size:.7rem;font-weight:900}
+.ev-organ-dropzone b{font-size:.76rem;line-height:1.15}
+.ev-organ-dropzone small{font-size:.63rem;color:#c2d0e6;line-height:1.3;margin-top:3px}
+.ev-organ-dropzone.is-filled{background:#174a49;border:1px solid #63d9b0}
+.ev-organ-dropzone.is-filled .ev-drop-number{background:#72e2b7}
+.ev-organ-dropzone.is-over,.ev-organ-dropzone:focus-visible{border:2px solid #ffe08a;background:#4c4a35;transform:translate(-50%,-50%) scale(1.04);outline:none}
+.ev-body-caption{text-align:center;color:#9fb2d2;font-size:.75rem;margin:4px 0 0}
+.ev-organ-tray{display:grid;gap:9px;margin-top:14px}
+.ev-organ-piece{display:flex;align-items:center;gap:10px;width:100%;padding:11px;border:1px solid #394d70;border-radius:14px;background:#202f4e;color:#f5f8ff;text-align:left;cursor:grab;transition:transform .15s,border-color .15s,background .15s}
+.ev-organ-piece:hover,.ev-organ-piece.is-selected{border-color:#7edfc0;background:#244d51;transform:translateY(-1px)}
+.ev-organ-piece.is-placed{opacity:.42;cursor:default}
+.ev-organ-piece:disabled{cursor:default}
+.ev-organ-piece-mark{display:grid;place-items:center;flex:0 0 36px;height:36px;border-radius:11px;background:#f0c4a5;color:#293650;font-weight:950;font-size:1rem}
+.ev-organ-piece-copy{display:flex;flex-direction:column;gap:3px;min-width:0}
+.ev-organ-piece-copy b{font-size:.91rem}
+.ev-organ-piece-copy small{font-size:.72rem;color:#c0cde5;line-height:1.35}
+.ev-organ-piece-grip{margin-left:auto;color:#a9bbd8;font-size:1.2rem}
+.ev-organ-live{min-height:58px;margin-top:12px;padding:12px;border-radius:12px;background:#101b32;border:1px solid #2d4160;color:#bfe8dd;font-size:.82rem;line-height:1.5}
+.ev-game-science-panel .ev-game-actions{margin-top:16px}
+@media(max-width:760px){.ev-organ-arena{grid-template-columns:1fr}.ev-body-board{order:0}.ev-organ-tray-wrap{order:1}.ev-body-figure{height:420px;max-width:340px}.ev-organ-dropzone{width:158px}.ev-game-panel-top{align-items:center}}
+@media(max-width:420px){.ev-body-board,.ev-organ-tray-wrap{padding:11px}.ev-body-figure{height:385px}.ev-organ-dropzone{width:143px;padding-left:29px;min-height:41px}.ev-organ-dropzone b{font-size:.68rem}.ev-organ-dropzone small{font-size:.58rem}.ev-organ-dropzone .ev-drop-number{left:6px;width:17px;height:17px}.ev-organ-piece{padding:9px}.ev-organ-piece-copy small{font-size:.68rem}}
+
+/* EDUVERSE V5 — visual direction: warm field notebook, crafted rather than template-like */
+:root{--font-primary:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;--font-display:Inter, ui-sans-serif, system-ui, sans-serif;}
+.ev-arcade-screen{background:#f4f1e8!important;color:#24362f!important;padding-top:24px!important;background-image:radial-gradient(#c7d3c4 0.7px,transparent 0.7px)!important;background-size:18px 18px!important}
+.ev-arcade-container{max-width:1240px!important}
+.ev-arcade-header{margin:8px 0 22px!important;gap:20px!important}
+.ev-arcade-header h1{font-weight:850!important;letter-spacing:-.055em!important;color:#203a32!important}
+.ev-arcade-header h1 span{color:#b45f3e!important}
+.ev-arcade-header p{color:#66766d!important}
+.ev-arcade-kicker{color:#7b6549!important;letter-spacing:.12em!important}
+.ev-arcade-wallet span{background:#fffdf6!important;border:1px solid #d8ded1!important;border-radius:12px!important;color:#35483d!important;box-shadow:0 2px 0 #d8ded1!important}
+.ev-arcade-feature{min-height:195px!important;padding:30px 34px!important;border:1px solid #c4d2bd!important;border-radius:18px!important;background:#dce8d2!important;box-shadow:0 5px 0 #c5d3bd!important;color:#263e31!important}
+.ev-arcade-feature-copy{max-width:760px!important}
+.ev-arcade-feature h2{font-size:clamp(1.5rem,3vw,2.25rem)!important;letter-spacing:-.045em!important;color:#263e31!important}
+.ev-arcade-feature p{color:#506657!important}
+.ev-arcade-pill{background:#fffdf6!important;color:#506657!important;border:1px solid #cad8c2!important}
+.ev-arcade-feature-tags span{background:#f9f7ef!important;border:1px solid #cbd8c5!important;color:#506657!important}
+.ev-arcade-feature-planet{display:none!important}
+.ev-arcade-section-title h2{color:#243a30!important;letter-spacing:-.035em!important}
+.ev-arcade-section-title p,.ev-arcade-note{color:#69796e!important}
+.ev-arcade-count{background:#e3e8db!important;border:1px solid #cdd7c7!important;color:#506657!important}
+.ev-arcade-grid{gap:16px!important}
+.ev-game-card{background:#fffdf7!important;border:1px solid #d9ded3!important;border-radius:16px!important;box-shadow:0 3px 0 #d9ded3!important;color:#263b31!important;transition:transform .16s ease,box-shadow .16s ease!important}
+.ev-game-card:hover{transform:translateY(-3px)!important;box-shadow:0 6px 0 #cbd5c4!important;border-color:#aabda5!important}
+.ev-game-art{height:82px!important;width:82px!important;border-radius:18px!important;box-shadow:none!important;font-size:2.1rem!important}
+.ev-game-style{color:#8b6748!important;letter-spacing:.07em!important}
+.ev-game-card strong{color:#263b31!important;font-size:1.12rem!important;letter-spacing:-.025em!important}
+.ev-game-desc{color:#69786e!important;min-height:50px!important}
+.ev-game-skill{background:#edf1e7!important;color:#506657!important;border-radius:9px!important}
+.ev-game-footer{border-color:#e5e8df!important}.ev-game-footer small{color:#879187!important}.ev-game-footer b{color:#a45739!important}
+.ev-game-coral .ev-game-art{background:#f2ddd2!important}.ev-game-gold .ev-game-art{background:#f2e6bf!important}.ev-game-mint .ev-game-art{background:#d8e9dd!important}.ev-game-violet .ev-game-art{background:#e8dfef!important}.ev-game-blue .ev-game-art{background:#dce8f0!important}
+.ev-game-panel{background:#fffdf7!important;border:1px solid #d9ded3!important;border-radius:18px!important;box-shadow:0 4px 0 #d9ded3!important;color:#263b31!important}
+.ev-game-panel-top{border-color:#e3e7dd!important}.ev-game-panel-top h2,.ev-game-question h3{color:#263b31!important;letter-spacing:-.03em!important}
+.ev-game-intro,.ev-mini-instruction{color:#68776c!important}
+.ev-question-label{color:#a05d3f!important;letter-spacing:.1em!important}
+.ev-game-feedback.hint{background:#f4eedb!important;color:#665633!important;border-color:#e5d8b2!important}.ev-game-feedback.retry{background:#f8e7d8!important;color:#7a4b2e!important;border-color:#eac8ac!important}.ev-game-feedback.correct{background:#e1f0e3!important;color:#315c3d!important;border-color:#bdd9c2!important}
+.ev-game-actions{border-top:1px solid #e6e8df!important;padding-top:16px!important}
+.ev-game-actions .btn,.ev-game-panel .btn{border-radius:10px!important;box-shadow:none!important;font-weight:750!important}
+.ev-game-complete{background:#e8f0e2!important;border-color:#c8d9c2!important;color:#2f4936!important}.ev-game-complete p{color:#617265!important}.ev-game-reward span{background:#fffdf7!important;color:#3d5944!important;border:1px solid #d4e0cf!important}
+.ev-organ-row,.ev-choice,.ev-culture-item,.ev-vault-pad button,.ev-runner-controls button{background:#f7f7ef!important;color:#314438!important;border-color:#d3ddd0!important}
+.ev-organ-row.drag-over,.ev-organ-row:hover,.ev-choice:hover,.ev-choice.selected,.ev-culture-item:hover{background:#e7f0e2!important;border-color:#9dbb99!important}
+.ev-body-board,.ev-clue-board,.ev-report-board{border-color:#d9ded3!important}
+.ev-audio-control{border:1px solid #cbd6c5;background:#fffdf7;color:#334a39;border-radius:10px;padding:9px 12px;font:inherit;font-size:.82rem;font-weight:750;cursor:pointer;white-space:nowrap}
+.ev-audio-control[aria-pressed="true"]{background:#dce8d2;border-color:#9db99a}
+@media(max-width:600px){.ev-arcade-feature{padding:22px!important}.ev-game-card{padding:16px!important}}
+
+/* EDUVERSE V6: tipografi lokal dan visual permainan yang lebih tenang */
+body, button, input, textarea, select { font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif; }
+.ev-arcade-screen { background: #f5f1e7; color: #243b35; }
+.ev-arcade-header p, .ev-arcade-section-title p, .ev-arcade-note { color: #66766e; }
+.ev-arcade-header h1 span { color: #2f8065; }
+.ev-arcade-kicker { color: #387a63; letter-spacing: .09em; }
+.ev-arcade-wallet span { background: #fffdf7; color: #28463b; border-color: #d9e1d4; }
+.ev-arcade-feature { background: linear-gradient(115deg,#315f4d,#497d62 65%,#789b70); border-color: #47775e; box-shadow: 0 10px 26px #35564020; }
+.ev-arcade-pill { background: #e6c875; color: #344a39; letter-spacing: .06em; }
+.ev-arcade-feature-tags span { background: #ffffff18; border-color: #ffffff30; }
+.ev-arcade-count { color: #315f4d; background: #e0e9d9; letter-spacing: .06em; }
+.ev-game-card { background: #fffdf7; color: #293e35; border-color: #d9e1d4; border-radius: 17px; box-shadow: 0 4px 12px #294d3810; }
+.ev-game-card:hover,.ev-game-card:focus-visible { border-color: #6b9b78; box-shadow: 0 8px 20px #294d381b; }
+.ev-game-art { border-radius: 12px; }
+.ev-game-style,.ev-game-footer b { color: #387a63; }
+.ev-game-desc { color: #5d6e65; }
+.ev-game-skill { color: #415d4d; background: #edf2e8; }
+.ev-game-footer { border-color: #e4e8dd; }
+.ev-game-panel { background: #fffdf7; color: #293e35; border-color: #d7dfd2; box-shadow: 0 10px 28px #294d3815; }
+.ev-game-intro,.ev-mini-instruction,.ev-vault-nudge,.ev-runner-message { color: #5d6e65; }
+.ev-game-scene { background: linear-gradient(110deg,#e4eddd,#d7e8d7); color: #294c3a; }
+.ev-game-scene small { color: #4c6757; }
+.ev-organ-row,.ev-choice,.ev-vault-pad button,.ev-runner-controls button { background: #f1f4eb; color: #2b4337; border-color: #cbd9c8; }
+.ev-command-list { background: #e8efe4; color: #315746; }
+.ev-runner-cell { background: #eef2e7; border-color: #c9d8c7; }
+.ev-game-feedback.retry { color: #744a1e; background: #fff0d6; border-color: #eed4a8; }
+.ev-game-feedback.correct { color: #245f48; background: #e1f3e8; border-color: #b9dfc8; }
+.ev-game-feedback.hint { color: #405c50; background: #e8efe4; border-color: #cbd9c8; }
+.ev-game-complete { background: #edf4e9; border-color: #cbdcc8; }
+.ev-game-complete p { color: #53685b; }
+.ev-game-reward span { background: #dcebd8; color: #315746; }
+.ev-audio-control { border: 1px solid #cbd9c8; border-radius: 999px; padding: 9px 13px; background: #fffdf7; color: #315746; font-weight: 700; cursor: pointer; }
+.ev-audio-control[aria-pressed="true"] { background: #dcebd8; border-color: #79a887; }
+
+
+/* EDUVERSE V7 — visual direction: natural, calm, game-first */
+:root { --font-primary: "Aptos", "Trebuchet MS", "Segoe UI", system-ui, sans-serif; --font-display: "Trebuchet MS", "Aptos", system-ui, sans-serif; }
+body, button, input, textarea, select { font-family: "Aptos", "Trebuchet MS", "Segoe UI", system-ui, sans-serif !important; letter-spacing: normal; }
+.ev-arcade-screen { background: #f3f0e6 !important; background-image: radial-gradient(#d8dfd0 .65px, transparent .65px) !important; background-size: 16px 16px !important; color: #293d32 !important; }
+.ev-arcade-header h1 { color: #294736 !important; font-weight: 800 !important; letter-spacing: -.045em !important; }
+.ev-arcade-header h1 span { color: #648c65 !important; }
+.ev-arcade-header p, .ev-arcade-section-title p, .ev-arcade-note { color: #627365 !important; }
+.ev-arcade-kicker { color: #6e8d6b !important; letter-spacing: .08em !important; }
+.ev-arcade-wallet span { background: #fffdf6 !important; color: #395744 !important; border: 1px solid #d9e0d1 !important; border-radius: 10px !important; box-shadow: none !important; }
+.ev-arcade-feature { background: #e3eadb !important; border: 1px solid #c9d8c5 !important; border-radius: 18px !important; box-shadow: 0 5px 0 #d2ddcc !important; }
+.ev-arcade-feature h2 { color: #2d4b37 !important; letter-spacing: -.025em !important; }
+.ev-arcade-feature p { color: #536a59 !important; }
+.ev-arcade-pill { background: #527b59 !important; color: #fffdf6 !important; letter-spacing: .04em !important; }
+.ev-arcade-feature-tags span { background: #f8f7ee !important; color: #46644c !important; border: 1px solid #cddbc9 !important; border-radius: 9px !important; }
+.ev-arcade-feature-planet { display: none !important; }
+.ev-arcade-section-title { margin-top: 28px !important; }
+.ev-arcade-section-title h2 { color: #294736 !important; letter-spacing: -.025em !important; }
+.ev-arcade-count { color: #4f7054 !important; background: #e2eadc !important; border-radius: 8px !important; letter-spacing: .04em !important; }
+.ev-arcade-grid { gap: 14px !important; }
+.ev-game-card { background: #fffdf7 !important; color: #2c4335 !important; border: 1px solid #d8dfd2 !important; border-radius: 14px !important; box-shadow: 0 3px 0 #e1e5da !important; padding: 17px !important; }
+.ev-game-card:hover, .ev-game-card:focus-visible { transform: translateY(-2px) !important; border-color: #9eb79b !important; box-shadow: 0 5px 0 #d4dfcf !important; }
+.ev-game-number { color: #788b77 !important; letter-spacing: .07em !important; }
+.ev-game-art { height: 88px !important; border-radius: 10px !important; background: #e7eddf !important; font-size: 3rem !important; box-shadow: none !important; }
+.ev-game-coral .ev-game-art, .ev-game-gold .ev-game-art, .ev-game-mint .ev-game-art, .ev-game-violet .ev-game-art, .ev-game-blue .ev-game-art { background: #e7eddf !important; }
+.ev-game-art i { display: none !important; }
+.ev-game-style { color: #6b8a69 !important; letter-spacing: .045em !important; }
+.ev-game-card strong { color: #2e4937 !important; font-weight: 750 !important; }
+.ev-game-desc { color: #637365 !important; }
+.ev-game-skill { background: #eef2e8 !important; color: #49664f !important; border-radius: 7px !important; }
+.ev-game-footer { border-color: #e3e7dc !important; }
+.ev-game-footer small { color: #7b8b7b !important; }
+.ev-game-footer b { color: #507c58 !important; }
+.ev-game-panel { background: #fffdf7 !important; border: 1px solid #d8dfd2 !important; border-radius: 16px !important; box-shadow: 0 4px 0 #e1e5da !important; color: #2b4335 !important; }
+.ev-game-panel h2, .ev-game-question h3 { color: #2c4937 !important; letter-spacing: -.02em !important; }
+.ev-game-scene { border-radius: 11px !important; box-shadow: none !important; }
+.ev-audio-control { border-radius: 9px !important; box-shadow: none !important; }
+.ev-game-actions button, .ev-runner-controls button, .ev-vault-pad button { border-radius: 9px !important; }
+@media (max-width: 600px) { .ev-arcade-feature { padding: 20px !important; } .ev-game-art { height: 76px !important; } }
+
+
+/* EDUVERSE V8 — typography, landing hierarchy, clearer literacy and festival missions */
+.landing-teacher-entry { display:flex; align-items:center; justify-content:center; gap:12px; flex-wrap:wrap; margin:10px auto 0; padding:12px 16px; max-width:520px; border:1px solid #d8dfd2; border-radius:12px; background:#fffdf7; color:#5c6e61; }
+.landing-world-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; }
+.landing-world-grid .card { height:100%; padding:16px 13px; border-radius:13px; border:1px solid #d8dfd2; background:#fffdf7; }
+.landing-world-grid .card h3 { line-height:1.25; min-height:2.5em; }
+.ev-detective-progress { display:flex; gap:9px; margin:16px 0; }
+.ev-detective-progress span { display:grid; place-items:center; width:32px; height:32px; border-radius:50%; border:1px solid #cbd8c7; background:#f3f4ec; color:#526b57; font-weight:700; }
+.ev-detective-progress span.current { background:#426f50; border-color:#426f50; color:#fffdf7; }
+.ev-detective-progress span.done { box-shadow:inset 0 0 0 2px #a8c5a0; }
+.ev-detective-card { padding:20px; border:1px solid #d9e1d4; border-radius:14px; background:#fbfaf3; }
+.ev-detective-location { margin-bottom:10px; color:#527b59; font-size:.78rem; font-weight:800; letter-spacing:.04em; }
+.ev-detective-clues { padding:14px 16px; margin:10px 0 18px; border-left:4px solid #a8c49d; border-radius:5px; background:#edf2e7; color:#344d3c; line-height:1.65; }
+.ev-detective-card h4 { margin:0 0 12px; font-size:1.08rem; color:#2c4937; }
+.ev-detective-options { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; }
+.ev-detective-option { min-height:54px; padding:12px; text-align:left; border:1px solid #d6dfd1; border-radius:9px; background:#fffdf7; color:#304837; cursor:pointer; }
+.ev-detective-option:hover,.ev-detective-option.selected { background:#e2eddd; border-color:#7ea17b; }
+.ev-detective-nav { display:flex; justify-content:space-between; gap:10px; margin-top:18px; }
+.ev-detective-feedback { margin-top:12px; color:#586e5d; line-height:1.5; }
+.ev-culture-items { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+.ev-culture-item { min-height:112px; text-align:left; display:flex; flex-direction:column; gap:7px; padding:14px; }
+.ev-culture-item b { font-size:1rem; }
+.ev-culture-item span { line-height:1.45; }
+.ev-culture-item small { margin-top:auto; font-weight:700; }
+.ev-culture-item.selected { background:#e3eddd!important; border-color:#7fa17a!important; box-shadow:inset 0 0 0 1px #a8c49d; }
+.ev-budget-meter { padding:12px 15px; margin:12px 0; background:#edf2e7; border-radius:9px; color:#315746; }
+@media(max-width:900px){.landing-world-grid{grid-template-columns:repeat(3,minmax(0,1fr));}}
+@media(max-width:620px){.landing-world-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.ev-detective-options,.ev-culture-items{grid-template-columns:1fr;}.ev-detective-card{padding:14px;}.landing-teacher-entry{margin-top:8px;}}
+
+
+/* EDUVERSE V10: prioritize click interaction on primary activity cards. */
+#featured-locations { position: relative; z-index: 5; }
+#featured-locations .ev-feature-card { position: relative; z-index: 6; pointer-events: auto !important; cursor: pointer; }
+#featured-locations .ev-feature-card * { pointer-events: none; }
+#featured-locations .ev-feature-card:focus-visible { outline: 4px solid #f3c969; outline-offset: 4px; }

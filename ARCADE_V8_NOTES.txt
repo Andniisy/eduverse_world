@@ -1,0 +1,13 @@
+EDUVERSE ARCADE V8 — MISI LITERASI, FESTIVAL, LANDING, FONT, AUDIO
+
+Perubahan:
+- Detektif Kata diubah menjadi misi pengamatan tiga lokasi. Murid membaca petunjuk sederhana, memilih kesimpulan yang paling masuk akal, dan mendapat alasan untuk memperbaiki jawaban.
+- Misi Festival Budaya memiliki 10 pilihan dengan biaya berbeda dan anggaran 12 koin. Murid perlu menyeimbangkan kegiatan budaya, aksesibilitas, kenyamanan, dan kebersihan.
+- Tombol Login Guru dipindahkan ke area dekat tombol mulai perjalanan, tidak lagi berada jauh di bawah halaman.
+- Lima keterangan dunia ditampilkan dengan grid responsif: 5 kolom di layar lebar, 3 di tablet, dan 2 di layar kecil.
+- Tipografi seluruh aplikasi diubah menjadi Cambria dengan Georgia sebagai fallback.
+- Musik latar melodi dihasilkan secara lokal memakai Web Audio API. Browser membatasi autoplay, sehingga musik mulai setelah interaksi pertama di area Arcade. Tombol Musik dapat dipakai untuk mematikan/menyalakan musik. Efek klik tetap tersedia.
+
+Cara menjalankan: ekstrak ZIP, buka folder eduverse_backup_2.0 di VS Code, jalankan index.html dengan Live Server. Uji misi Detektif Kata dan Festival Budaya, lalu klik masuk ke Arcade dan pastikan suara browser tidak dalam keadaan mute.
+
+Pemeriksaan teknis yang dilakukan: sintaks JavaScript untuk js/screens/arcade.js dan js/screens/landing.js lolos `node --check`. Pengujian penuh di browser belum dilakukan.

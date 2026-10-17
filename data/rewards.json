@@ -1,0 +1,7 @@
+[
+  { "id": "REWARD-HBL-Q01", "type": "quest", "xp": 100, "coins": 30, "cards": ["SCI-HBL-C001"], "badges": [], "crystals": [] },
+  { "id": "REWARD-HBL-Q02", "type": "quest", "xp": 125, "coins": 35, "cards": ["SCI-HBL-C002"], "badges": [], "crystals": [] },
+  { "id": "REWARD-HBL-Q03", "type": "quest", "xp": 125, "coins": 35, "cards": ["SCI-HBL-C003"], "badges": [], "crystals": [] },
+  { "id": "REWARD-HBL-CH01", "type": "challenge", "xp": 200, "coins": 50, "cards": [], "badges": ["BADGE-BODY-EXPLORER"], "crystals": [] },
+  { "id": "REWARD-HBL-B01", "type": "boss", "xp": 300, "coins": 75, "cards": ["SCI-HBL-C004"], "badges": ["BADGE-HUMAN-BODY-MASTER"], "crystals": ["CRYSTAL-SCI"] }
+]

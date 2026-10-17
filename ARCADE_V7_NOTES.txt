@@ -1,0 +1,10 @@
+EDUVERSE ARCADE V7 — REVISI VISUAL, BAHASA, AUDIO, DAN TANTANGAN
+
+- Mempertahankan mekanisme permainan dan penyimpanan hadiah dari V6.
+- Label Arcade yang masih berbahasa Inggris seperti GAME/ARENA/Puzzle/Eksplorasi dilokalkan. Data nama dan deskripsi dunia utama menggunakan Bahasa Indonesia.
+- Font menggunakan font sistem lokal, tanpa ketergantungan font daring. Tampilan Arcade memakai warna alami, kartu lebih sederhana, bayangan ringan, dan mengurangi ornamen dekoratif.
+- Musik latar dan efek klik dibuat secara lokal menggunakan Web Audio API. Klik tombol Musik untuk mengaktifkan karena kebijakan autoplay browser.
+- Tantangan Brankas Matematika tetap memakai pola perkalian bertahap dengan kode 405. Detektif Kata meminta laporan berbasis bukti yang lebih terperinci. Robot Penjelajah Kode kini membutuhkan empat langkah tepat (kanan, kanan, kanan, bawah).
+- Uji interaktif penuh tetap disarankan setelah ekstraksi; khususnya jalur robot, drag-and-drop organ, audio, dan seluruh alur penyelesaian.
+
+Cara menjalankan: ekstrak ZIP, buka folder eduverse_backup_2.0 di VS Code, lalu jalankan index.html dengan Live Server.

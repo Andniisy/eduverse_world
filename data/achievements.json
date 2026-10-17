@@ -1,0 +1,9 @@
+[
+  { "id": "ACH-FIRST-DISCOVERY", "name": "First Discovery", "icon": "🌟", "description": "Complete your first quest.", "condition": { "type": "quests_completed", "value": 1 } },
+  { "id": "ACH-COLLECTOR", "name": "Collector", "icon": "🃏", "description": "Collect 5 Knowledge Cards.", "condition": { "type": "cards_collected", "value": 5 } },
+  { "id": "ACH-EXPLORER", "name": "Explorer", "icon": "🧭", "description": "Visit all five worlds.", "condition": { "type": "worlds_visited", "value": 5 } },
+  { "id": "ACH-CURIOUS-MIND", "name": "Curious Mind", "icon": "❓", "description": "Use hints in 10 different questions.", "condition": { "type": "hints_used", "value": 10 } },
+  { "id": "ACH-CHALLENGE-SEEKER", "name": "Challenge Seeker", "icon": "⚡", "description": "Complete 3 Challenges.", "condition": { "type": "challenges_completed", "value": 3 } },
+  { "id": "ACH-BOSS-CHALLENGER", "name": "Boss Challenger", "icon": "👾", "description": "Defeat your first Boss.", "condition": { "type": "bosses_defeated", "value": 1 } },
+  { "id": "ACH-UNIVERSE-EXPLORER", "name": "Universe Explorer", "icon": "🌌", "description": "Collect all 5 world crystals.", "condition": { "type": "crystals_earned", "value": 5 } }
+]

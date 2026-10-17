@@ -1,0 +1,10 @@
+[
+  { "id": "CP-IPAS-FC", "subject": "IPAS", "phase": "C", "grade": [5, 6], "elements": ["Pemahaman IPAS", "Keterampilan proses"], "topic": "Sistem organ tubuh manusia dan kesehatan", "sourceId": "SRC-IPAS-FC" },
+  { "id": "CP-IPAS-FC-ECO", "subject": "IPAS", "phase": "C", "grade": [5, 6], "elements": ["Pemahaman IPAS", "Keterampilan proses"], "topic": "Ekosistem dan hubungan makhluk hidup", "sourceId": "SRC-IPAS-FC" },
+  { "id": "CP-IPAS-FC-GEO", "subject": "IPAS", "phase": "C", "grade": [5, 6], "elements": ["Pemahaman IPAS", "Keterampilan proses"], "topic": "Kondisi geografis Indonesia", "sourceId": "SRC-IPAS-FC" },
+  { "id": "CP-BI-FC-INFO", "subject": "Bahasa Indonesia", "phase": "C", "grade": [5, 6], "elements": ["Membaca", "Menulis"], "topic": "Menemukan dan memahami informasi dalam teks", "sourceId": "SRC-BI-FC" },
+  { "id": "CP-BI-FC-STORY", "subject": "Bahasa Indonesia", "phase": "C", "grade": [5, 6], "elements": ["Menulis", "Berbicara"], "topic": "Membangun cerita dan karakter", "sourceId": "SRC-BI-FC" },
+  { "id": "CP-PANCASILA-FC-UNITY", "subject": "Pendidikan Pancasila", "phase": "C", "grade": [5, 6], "elements": ["Pancasila", "Bhinneka Tunggal Ika"], "topic": "Keberagaman dan persatuan Indonesia", "sourceId": "SRC-PANCASILA-FC" },
+  { "id": "CP-KODING-GRADE5-CT", "subject": "Koding dan Kecerdasan Artifisial", "phase": "C", "grade": [5], "elements": ["Berpikir komputasional", "Pemrograman dasar"], "topic": "Algoritma, urutan, dan pemrograman dasar", "sourceId": "SRC-KODING-GRADE5" },
+  { "id": "CP-KODING-GRADE5-DIGITAL", "subject": "Koding dan Kecerdasan Artifisial", "phase": "C", "grade": [5], "elements": ["Literasi digital", "Keamanan digital"], "topic": "Keamanan dan etika digital", "sourceId": "SRC-KODING-GRADE5" }
+]

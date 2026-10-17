@@ -1,0 +1,7 @@
+[
+  { "id": "HINT-BODY-001", "questionId": "SCI-HBL-Q01-01", "hint1": "Think about the five senses.", "hint2": "Which organ helps you see?", "hint3": "It's located on your face and comes in pairs.", "hint4": "The answer starts with the letter 'E'." },
+  { "id": "HINT-BODY-002", "questionId": "SCI-HBL-Q01-02", "hint1": "Each organ has a special job.", "hint2": "Match what the organ does with the organ itself.", "hint3": "The heart pumps blood, the lungs help you breathe.", "hint4": "Think about what your nose does when you smell food." },
+  { "id": "HINT-DIG-001", "questionId": "SCI-HBL-Q02-01", "hint1": "Follow the path of food.", "hint2": "Food starts at your mouth.", "hint3": "After the mouth, food goes down a tube.", "hint4": "That tube is called the esophagus." },
+  { "id": "HINT-DIG-002", "questionId": "SCI-HBL-Q02-02", "hint1": "Think about where nutrients go.", "hint2": "The stomach breaks down food, but doesn't absorb most nutrients.", "hint3": "The small intestine is long and has tiny finger-like parts.", "hint4": "Most nutrients are absorbed in the small intestine." },
+  { "id": "HINT-HEALTH-001", "questionId": "SCI-HBL-Q03-01", "hint1": "Think about what a balanced meal looks like.", "hint2": "A healthy plate has many colors.", "hint3": "Fruits and vegetables are part of a balanced meal.", "hint4": "Healthy food can be tasty too!" }
+]

@@ -1,0 +1,9 @@
+EDUVERSE ARCADE V5 — CATATAN REVISI
+
+1. Nama dan deskripsi lima dunia sudah diubah ke Bahasa Indonesia pada data/worlds.json. Label kemajuan pada kartu dunia juga dilokalkan.
+2. Tampilan Arcade menggunakan arah visual baru: palet kertas hangat, hijau lapangan, bentuk kartu lebih tenang, tipografi sistem yang bersih, dan bayangan yang lebih ringan.
+3. Musik latar sintetis dan bunyi klik tombol dibuat menggunakan Web Audio API; tidak memerlukan file audio atau internet. Karena kebijakan browser, musik baru dapat aktif setelah tombol musik diklik.
+4. Tantangan Brankas Matematika ditingkatkan dari pola dua digit menjadi pola perkalian bertahap dengan jawaban tiga digit (405).
+5. Pengujian browser penuh masih disarankan, terutama untuk audio di browser perangkat sekolah dan semua alur misi.
+
+Cara menjalankan: ekstrak folder, buka index.html melalui VS Code + Live Server.

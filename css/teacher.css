@@ -1,0 +1,29 @@
+body.teacher-app { background: var(--deep-space); }
+
+#sidebar .nav-link {
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+}
+
+#sidebar .nav-link:hover { background: var(--space-surface); }
+
+.teacher-app table { font-size: var(--text-sm); }
+
+.teacher-app table th {
+  color: var(--muted-star);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: var(--text-xs);
+  letter-spacing: 0.05em;
+}
+
+.teacher-app table tr:hover td { background: var(--space-surface); }
+
+@media (max-width: 768px) {
+  .teacher-app > .screen { flex-direction: column !important; }
+  .teacher-app aside {
+    width: 100% !important;
+    border-right: 0;
+    border-bottom: 1px solid var(--space-surface);
+  }
+}
